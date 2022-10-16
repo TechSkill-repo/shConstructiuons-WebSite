@@ -49,7 +49,7 @@ function Nav() {
               />
             </div>
           </li>
-          <li className="services">
+          <li className="service">
             <a href="" className="services-link">
               Services
             </a>
