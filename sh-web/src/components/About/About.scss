@@ -1,0 +1,41 @@
+@import '../config';
+
+.about
+{
+    height: 500px;
+    width: 100%;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .about-content{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: $body-font;
+        gap: 1.4rem;
+        
+        h3{
+            font-size: 2rem;
+            font-weight: 600;
+            color: $secondary-color;
+        }
+        p{
+            width: 70%;
+        }
+        
+    }
+
+    img{
+        height: 240px;
+        border-radius: 10px;
+        pointer-events: none;
+       
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+    }
+
+}
