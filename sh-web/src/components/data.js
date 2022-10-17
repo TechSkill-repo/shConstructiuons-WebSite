@@ -6,11 +6,11 @@ const servicesList = [
 ];
 
 const aboutList = [
-  "History",
-  "Management",
-  "Network",
+  "History at a Glance",
+  "Our Sklilled Management ",
+  "Our Networks",
   "Endorsements",
-  "Safety",
+  "Safety Measures",
 ];
 
 const introText = {
@@ -56,4 +56,11 @@ const carouselImages = [
   
   
 ]
-module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText };
+
+const clientsList= [
+  "https://couravel.com/wp-content/uploads/2017/09/tata-steel-logo.jpg","http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
+  "https://couravel.com/wp-content/uploads/2017/09/tata-steel-logo.jpg","http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
+  "https://1000logos.net/wp-content/uploads/2021/04/Hero-logo.png",
+  "https://assets.stickpng.com/thumbs/613f627216381700041030e6.png"
+]
+module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList };

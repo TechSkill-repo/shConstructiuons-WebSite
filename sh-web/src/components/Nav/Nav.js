@@ -36,15 +36,20 @@ function Nav() {
             <a className="about-link" href="">
               About
             </a>
-            <div className="dropdown">
+            <div className="dropdown ">
+              <div className="about-nav">
+
+              <h4>About S.H.</h4>
               <ul className="about-list dropdown-list">
               { aboutList.map(item=><li>
                   
                   <a href="">{item}</a>
                 </li>)}
               </ul>
+              </div>
               <img
-                src="https://img.freepik.com/free-vector/factory-concept-illustration_114360-5418.jpg?w=740&t=st=1665770260~exp=1665770860~hmac=530b957bff40b130c8b12175751406708f092647470f61564e2d214a4a5393fe"
+              className="about-img"
+                src="https://images.unsplash.com/photo-1611795495232-a79c42303014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt=""
               />
             </div>
@@ -54,13 +59,17 @@ function Nav() {
               Services
             </a>
             <div className="dropdown">
+              <div className="service-nav">
+              <h4>Services We Provide</h4>
               <ul className="about-list dropdown-list">
               { servicesList.map(item=><li>
                   
                   <a href="">{item}</a>
                 </li>)}
               </ul>
+              </div>
               <img
+              className="services-img"
                 src="https://img.freepik.com/free-photo/mobile-engineers_1098-15445.jpg?w=996&t=st=1665858205~exp=1665858805~hmac=ae753f72f4f38b0ea2a632039d3ab5566fca4d2dab83f211796926bc5b42985f"
                 alt=""
               />
