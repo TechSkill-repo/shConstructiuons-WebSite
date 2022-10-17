@@ -10,13 +10,9 @@
   transform: rotate($n);
 }
 
-body
-{
-  @media screen and (max-width: $md)
-  {
+body {
+  @media screen and (max-width: $md) {
     overflow-x: hidden;
-  
-    
   }
 }
 
@@ -34,7 +30,6 @@ a {
   padding: 0 5rem;
   height: 4rem;
   // border-bottom: 2px solid #FF741E;
-  
 
   @media screen and (max-width: $md) {
     padding: 0 1rem;
@@ -116,7 +111,7 @@ a {
       color: $secondary-color;
     }
   }
-  
+
   .nav-links {
     height: 100%;
     @media only screen and (max-width: $md) {
@@ -159,18 +154,15 @@ a {
         padding: 5px 0;
         cursor: pointer;
         @media screen and (min-width: $md) {
-          
           display: flex;
           align-items: center;
           height: 100%;
-        
-        
         }
 
         .about {
           height: 200px;
         }
-        &:hover > a{
+        &:hover > a {
           border-bottom: 2px solid $secondary-color;
           color: $secondary-color;
         }
@@ -179,7 +171,7 @@ a {
   }
   .dropdown {
     border: 3px solid #de5500;
-    background-color: rgba(255,255,255,.8862745098);
+    background-color: rgba(255, 255, 255, 0.8862745098);
     border-top: none;
     border-radius: 5px;
     height: 272px;
@@ -187,7 +179,7 @@ a {
     padding: 1rem 2rem;
     position: absolute;
     opacity: 0;
-    transition: all .25s ease;
+    transition: all 0.25s ease;
     left: 32%;
     top: 4rem;
     z-index: 1;
@@ -221,7 +213,7 @@ a {
         padding: 3px 0;
         cursor: pointer;
 
-        a{
+        a {
           border-bottom: 2px solid gray;
           padding-bottom: 5px;
         }
@@ -243,11 +235,8 @@ a {
     @media screen and (max-width: $md) {
       display: none;
     }
-      
-    
   }
   .service:hover > .dropdown {
-   
     opacity: 1;
     pointer-events: all;
     @media screen and (max-width: $md) {
@@ -255,14 +244,10 @@ a {
     }
   }
 }
-.nav-active
-  {
-    @media only screen and (max-width: $md) {
-      transform: translateX(0%) !important;
-      backdrop-filter: blur(50px);
-      display: block !important;
-     
-      
-    }
-
-  } 
+.nav-active {
+  @media only screen and (max-width: $md) {
+    transform: translateX(0%) !important;
+    backdrop-filter: blur(50px);
+    display: block !important;
+  }
+}

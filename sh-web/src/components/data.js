@@ -45,4 +45,15 @@ const serviceCards = [
 
   
 ]
-module.exports = { servicesList, aboutList, aboutText, serviceCards };
+
+
+
+const carouselImages = [
+  "https://images.unsplash.com/photo-1624027492684-327af1fb7559?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+  "https://t4.ftcdn.net/jpg/04/20/66/35/360_F_420663538_AgsmDjp497wvFXZg7RiQh3dsZPrLAiQB.jpg",
+  "https://images.squarespace-cdn.com/content/v1/5c0f2bee365f024a5a76eacf/1547840376224-JNZ8QGCNMHEJZP9TMEC2/shutterstock_735034657.jpg?format=1500w",
+  "https://images.unsplash.com/photo-1524514587686-e2909d726e9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  
+  
+]
+module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText };

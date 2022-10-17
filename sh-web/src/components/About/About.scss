@@ -1,43 +1,71 @@
-@import '../config';
+@import "../config";
 
-.about
-{
-    height: 500px;
-    width: 100%;
-    
+.about {
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: $md) {
+    height: 450px;
+    justify-content: space-around;
+    padding: 0 1rem;
+  }
+  .about-content {
+    width: 55%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    .about-content{
-        width: 55%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        font-family: $body-font;
-        gap: 1.4rem;
-        
-        h3{
-            font-size: 2rem;
-            font-weight: 600;
-            color: $secondary-color;
-        }
-        p{
-            width: 70%;
-        }
-        
-    }
+    align-items: flex-start;
+    font-family: $body-font;
+    gap: 1.4rem;
 
-    img{
-        height: 240px;
-        border-radius: 10px;
-        pointer-events: none;
-       
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $secondary-color;
     }
-   .about-btn{
+    p {
+      width: 70%;
+      @media screen and (max-width: $md) {
+        width: 97%;
+      }
+    }
+    .d-p {
+      @media screen and (max-width: $md) {
+        display: none;
+      }
+    }
+  }
+
+  .d-img {
+    height: 240px;
+    border-radius: 10px;
+    pointer-events: none;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    @media screen and (max-width: $md) {
+      display: none;
+    }
+  }
+  .m-img {
+    height: 217px;
+    opacity: 0.9;
+    border-radius: 10px;
+    pointer-events: none;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @media screen and (min-width: $md) {
+      display: none;
+    }
+  }
+
+  .about-btn {
     // margin: 10px auto;
     padding: 12px 25px;
     text-align: center;
@@ -50,22 +78,26 @@
     border: 0px;
     font-weight: 700;
     box-shadow: 0px 0px 14px -7px #f09819;
-    background-image: linear-gradient(45deg, #de5500 0%, #F09819  51%, #de5500  100%);
+    background-image: linear-gradient(
+      45deg,
+      #de5500 0%,
+      #f09819 51%,
+      #de5500 100%
+    );
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  
-  
-  &:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
+
+    &:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
   }
-  
-  &:active {
-    transform: scale(0.95);
-  }
-   }
 }
