@@ -69,10 +69,10 @@ function Hero() {
 
 
       <div className="left" onClick={previous}>
-        <i class="fas fa-chevron-left left-own-arrow"></i>
+        <i className="fas fa-chevron-left left-own-arrow"></i>
       </div>
       <div className="right" onClick={next}>
-        <i class="fas fa-chevron-right right-own-arrow"></i>
+        <i className="fas fa-chevron-right right-own-arrow"></i>
       </div>
     </div>
   );

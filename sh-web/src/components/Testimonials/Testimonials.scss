@@ -1,0 +1,158 @@
+@import '../config';
+
+
+$color_1: #8c8c90;
+$color_2: #2d3d67;
+$color_3: #bcc4da;
+$color_4: #0a69ed;
+$color_5: #ff0000;
+$background-color_1: #ffffff;
+
+.testimonials{
+    font-family: $body-font;
+    margin-top: 4rem;
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $secondary-color;
+        padding: 0 6rem;
+    }
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    font-family: $body-font;
+    width: 100%;
+    
+    padding: 0 3rem;
+    margin-top: 3rem;
+    height: 450px;
+    
+
+
+}
+
+.box {
+    padding: 2rem;
+	height: 440px;
+    position: relative;
+    padding: 0 6rem;
+    width: 75%;
+    margin: 0 auto;
+    width: 100%;
+    
+  
+    .wrapper {
+        background-color: $background-color_1;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 0.6em;
+        -webkit-box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+        box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+        background: url('https://t3.ftcdn.net/jpg/03/97/87/50/360_F_397875070_mVaw0f0PkchWjYuUDcUtOHYmFtKYPp42.jpg');
+        i{
+            margin: 1rem;
+        }
+        button {
+            font-size: 1.8em;
+            color: $color_4;
+            height: 2.2em;
+            width: 2.2em;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            background-color: $background-color_1;
+            border: none;
+            border-radius: 50%;
+            -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+        }
+        .testimonial-container {
+            width: 70%;
+            height: 80%;
+            position: absolute;
+            margin: auto;
+            padding: 1.8em 1.2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://t4.ftcdn.net/jpg/03/43/37/67/240_F_343376703_QHejNfqdvv12WwHkxS6Ts19nF2aIYuEo.jpg') no-repeat center center/cover;
+            background: white;
+
+            #testimonial1{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .content{
+                    width: 60%;
+                }
+            }
+            p {
+                color: $color_1;
+                text-align: center;
+                font-size: 0.9em;
+                line-height: 2em;
+                letter-spacing: 0.05em;
+            }
+            img {
+                display: block;
+                height: 100%;
+              
+                width: 240px;
+                object-fit: cover;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+            }
+            h3 {
+                color: $color_2;
+                font-size: 1em;
+                text-align: center;
+            }
+            h6 {
+                color: $color_3;
+                font-size: 0.9em;
+                letter-spacing: 0.03em;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+        button{
+           color: $secondary-color; 
+        }
+button#next {
+	right: -1.1em;
+}
+button#prev {
+	left: -1.1em;
+}
+a {
+	position: relative;
+	display: block;
+	background-color: $background-color_1;
+	color: $color_4;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: center;
+	padding: 0.9em 0;
+	border-radius: 0.3em;
+	margin-top: 30px;
+}
+.fab {
+	color: $color_5;
+}
+    }
+}
+
+@media screen and (max-width: 650px) {
+	.wrapper {
+		font-size: 14px;
+	}
+}

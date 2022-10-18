@@ -63,4 +63,31 @@ const clientsList= [
   "https://1000logos.net/wp-content/uploads/2021/04/Hero-logo.png",
   "https://assets.stickpng.com/thumbs/613f627216381700041030e6.png"
 ]
-module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList };
+
+
+const testimonials = [
+
+{
+  message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
+  imgUrl:"https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80",
+  name:"John Doe",
+  designation:"CEO, ABC Company"
+
+},
+{
+  message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
+  imgUrl:"https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80",
+  name:"John Wick",
+  designation:"CEO, Mustang 420"
+
+},
+{
+  message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
+  imgUrl:"https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80",
+  name:"Travis Scott",
+  designation:"CEO, ABC Company"
+
+}
+
+]
+module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList, testimonials };

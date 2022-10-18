@@ -14,7 +14,7 @@ function Clients() {
           )}
           
         </div>
-        <button className='about-btn'>See all <i class="fas fa-handshake"></i></button>
+        <button className='about-btn'>See all <i className="fas fa-handshake"></i></button>
           </div>
   )
 }
