@@ -29,6 +29,11 @@ a {
   align-items: center;
   padding: 0 5rem;
   height: 4rem;
+  position: sticky;
+  top: 0;
+  background-color: $primary-color;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   // border-bottom: 2px solid #FF741E;
 
   @media screen and (max-width: $md) {
@@ -108,7 +113,7 @@ a {
     h3 {
       font-family: "Allura", cursive;
       font-size: 2rem;
-      color: $secondary-color;
+      color: $logo-color;
     }
   }
 
@@ -264,6 +269,7 @@ a {
       // width: 200px;
       height: 100%;
       pointer-events: none;
+      opacity: 0.9;
     }
     &:hover {
       display: flex;

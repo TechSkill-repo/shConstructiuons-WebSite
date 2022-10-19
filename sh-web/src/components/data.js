@@ -61,7 +61,7 @@ const clientsList= [
   "https://couravel.com/wp-content/uploads/2017/09/tata-steel-logo.jpg","http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
   "https://couravel.com/wp-content/uploads/2017/09/tata-steel-logo.jpg","http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
   "https://1000logos.net/wp-content/uploads/2021/04/Hero-logo.png",
-  "https://assets.stickpng.com/thumbs/613f627216381700041030e6.png"
+  "https://cdn-icons-png.flaticon.com/512/196/196539.png"
 ]
 
 
@@ -75,19 +75,53 @@ const testimonials = [
 
 },
 {
-  message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
-  imgUrl:"https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80",
-  name:"John Wick",
-  designation:"CEO, Mustang 420"
+  message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumendt amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumendt amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumendt amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumendt amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
+  imgUrl:"https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1c2luZXNzJTIwd29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+  name:"Mary Luicida",
+  designation:"CEO, Cred IC."
 
 },
 {
   message:'lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,',
-  imgUrl:"https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=489&q=80",
-  name:"Travis Scott",
-  designation:"CEO, ABC Company"
+  imgUrl:"https://www.usmagazine.com/wp-content/uploads/2020/05/Keanu-Reeves-Kept-Calling-John-Wick-the-Wrong-Name.jpg?quality=82&strip=all",
+  name:"John Wick",
+  designation:"Mustang, Boss 420"
 
 }
 
 ]
-module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList, testimonials };
+const aboutImg= "https://images.unsplash.com/photo-1547895749-888a559fc2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80";
+
+const serviceImg="https://img.freepik.com/free-photo/mobile-engineers_1098-15445.jpg?w=996&t=st=1665858205~exp=1665858805~hmac=ae753f72f4f38b0ea2a632039d3ab5566fca4d2dab83f211796926bc5b42985f"
+
+
+const csrCards=[
+  {
+    imgUrl:"https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    desc:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ",
+  },
+  {
+    imgUrl:"https://images.unsplash.com/photo-1535325243310-ac42c00e79cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGJyaWdkZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    desc:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ",
+  },
+  {
+    imgUrl:"https://images.unsplash.com/photo-1549051283-df30ddce1945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGJyaWdkZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    desc:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ",
+  },
+]
+
+const news =[
+  {
+    headline:"Lorem okey",
+    summary:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda,rem ipsum dolor loprem sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendisrem ipsum dolor loprem sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis lorem ",
+  },
+  {
+    headline:"Lorem okey",
+    summary:"lorem ipsum dolor loprem sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendisrem ipsum dolor loprem sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendisrem ipsum dolor loprem sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? ",
+  },
+  {
+    headline:"Lorem okey",
+    summary:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ",
+  },
+]
+module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList, testimonials, aboutImg, serviceImg,csrCards, news};

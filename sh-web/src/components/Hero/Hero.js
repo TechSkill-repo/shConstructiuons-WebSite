@@ -4,6 +4,9 @@ import {carouselImages} from '../data';
 
 function Hero() {
   const [imgUrl, setImgUrl] = useState(0);
+  const [progress, setProgress] = useState(true);
+
+  
 
   useEffect(() => {
     const interval = setInterval(next,3000);
@@ -13,7 +16,23 @@ function Hero() {
 
   }, [imgUrl]);
 
+  const startProgress = () =>
+  {
+
+    if(progress)
+    {
+      document.querySelector(".progress").style.width = "100%";
+      setProgress(false);
+    }
+    else{
+      document.querySelector(".progress").style.width = "0%";
+      setProgress(true);
+    }
+
+  }
+
   const previous = _ => {
+    startProgress();
     if (imgUrl > 0) {
       setImgUrl(imgUrl - 1);
     } else {
@@ -23,6 +42,7 @@ function Hero() {
     
   };
   const next = _ => {
+    startProgress();
     if (imgUrl < carouselImages.length - 1) {
       setImgUrl(imgUrl + 1);
     }
@@ -41,6 +61,9 @@ function Hero() {
           Minima, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Maiores, repudiandae?
         </p>
+        <div className="progressContainer">
+    <div className="progress"></div>
+</div>
       </div>
       <div className="slides">
 
@@ -74,6 +97,7 @@ function Hero() {
       <div className="right" onClick={next}>
         <i className="fas fa-chevron-right right-own-arrow"></i>
       </div>
+    
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../../styles/Nav.css";
-import {aboutList, servicesList} from "../data"
+import {aboutList, servicesList, aboutImg, serviceImg} from "../data"
 
 function Nav() {
 
@@ -41,7 +41,7 @@ function Nav() {
 
               <h4>About S.H.</h4>
               <ul className="about-list dropdown-list">
-              { aboutList.map(item=><li>
+              { aboutList.map(item=><li key={item}>
                   
                   <a href="">{item}</a>
                 </li>)}
@@ -49,7 +49,7 @@ function Nav() {
               </div>
               <img
               className="about-img"
-                src="https://images.unsplash.com/photo-1611795495232-a79c42303014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                src={aboutImg}
                 alt=""
               />
             </div>
@@ -62,7 +62,7 @@ function Nav() {
               <div className="service-nav">
               <h4>Services We Provide</h4>
               <ul className="about-list dropdown-list">
-              { servicesList.map(item=><li>
+              { servicesList.map(item=><li key={item}>
                   
                   <a href="">{item}</a>
                 </li>)}
@@ -70,7 +70,7 @@ function Nav() {
               </div>
               <img
               className="services-img"
-                src="https://img.freepik.com/free-photo/mobile-engineers_1098-15445.jpg?w=996&t=st=1665858205~exp=1665858805~hmac=ae753f72f4f38b0ea2a632039d3ab5566fca4d2dab83f211796926bc5b42985f"
+                src={serviceImg}
                 alt=""
               />
             </div>
@@ -88,9 +88,9 @@ function Nav() {
       </div>
 
       <input onClick={handleBurger} type="checkbox" id="change-hamburguer" />
-      <a class="hamburguer" href="#">
+      <a className="hamburguer" href="#">
         <span></span>
-        <label for="change-hamburguer"></label>
+        <label htmlFor="change-hamburguer"></label>
       </a>
     </div>
   );

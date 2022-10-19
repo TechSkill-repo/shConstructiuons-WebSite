@@ -1,0 +1,50 @@
+@import '../config';
+
+.news{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    gap: 2rem;
+    
+  padding: 0 6rem;
+  
+  font-family: $body-font;
+    h3{
+        font-size: $h3-font-size;
+        font-weight: 600;
+        color: $secondary-color;
+        
+    text-align: center;
+    }
+    .news-content{
+            div{
+                margin-bottom: 2rem ;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                
+                h5{
+                    font-size: 17px;
+                    margin-bottom: 1rem;
+                    padding: 5px;
+                    display: flex;
+                    gap:14px;
+                    &:hover{
+                        color: rgb(63, 63, 255);
+                        text-decoration: underline;
+                      
+                    }
+                }
+                p{
+                    padding: 10px;
+                }
+                &:hover{
+                    transform: scale(1.02);
+                }
+            }
+    }
+    h5{
+        color: $secondary-color;
+    }
+}
