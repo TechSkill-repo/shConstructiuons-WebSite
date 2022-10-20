@@ -36,7 +36,13 @@
     text-align: center;
     font-weight: 600;
     color: $secondary-color;
+    h3{
+      font-size: $h3-font-size;
+      font-weight: 700;
+      font-family: $logo-font;
+    }
   }
+  
  .src-short{
  
     width: 80%;
@@ -62,6 +68,7 @@
       border-radius: 8px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
         rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        background-color: $primary-color;
       @media screen and (max-width: $md) {
         height: 300px;
         width: 310px;

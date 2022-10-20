@@ -124,4 +124,34 @@ const news =[
     summary:"lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos deleniti esse reiciendis? Assumenda, lorem ",
   },
 ]
-module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList, testimonials, aboutImg, serviceImg,csrCards, news};
+
+
+const achieve_cards =[
+  {
+    url:"https://images.unsplash.com/photo-1601119462748-2d612d1c9d86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    title:"Providing Safety",
+    subText1:"Assurity",
+    subText2:"Making changes",
+  },
+  {
+    url:"https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    title:"India's No. 1 Company",
+    subText1:"lorem upsom",
+    subText2:"in Constructions Industry",
+  },
+  {
+    url:"https://images.unsplash.com/photo-1564182842519-8a3b2af3e228?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvcmtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    title:" Quality Products",
+    subText1:"Delivered",
+    subText2:"For 25 Years",
+  }
+  ,
+  {
+    url:"https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    title:"Empowering Technology",
+    subText1:"lorem upsom",
+    subText2:"Making changes",
+  },
+ 
+]
+module.exports = { servicesList, aboutList, aboutText, serviceCards, carouselImages, introText, clientsList, testimonials, aboutImg, serviceImg,csrCards, news, achieve_cards};

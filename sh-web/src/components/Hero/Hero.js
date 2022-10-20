@@ -16,23 +16,23 @@ function Hero() {
 
   }, [imgUrl]);
 
-  const startProgress = () =>
-  {
+  // const startProgress = () =>
+  // {
 
-    if(progress)
-    {
-      document.querySelector(".progress").style.width = "100%";
-      setProgress(false);
-    }
-    else{
-      document.querySelector(".progress").style.width = "0%";
-      setProgress(true);
-    }
+  //   if(progress)
+  //   {
+  //     document.querySelector(".progress").style.width = "100%";
+  //     setProgress(false);
+  //   }
+  //   else{
+  //     document.querySelector(".progress").style.width = "0%";
+  //     setProgress(true);
+  //   }
 
-  }
+  // }
 
   const previous = _ => {
-    startProgress();
+    // startProgress();
     if (imgUrl > 0) {
       setImgUrl(imgUrl - 1);
     } else {
@@ -42,7 +42,7 @@ function Hero() {
     
   };
   const next = _ => {
-    startProgress();
+    // startProgress();
     if (imgUrl < carouselImages.length - 1) {
       setImgUrl(imgUrl + 1);
     }
@@ -61,9 +61,9 @@ function Hero() {
           Minima, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Maiores, repudiandae?
         </p>
-        <div className="progressContainer">
+        {/* <div className="progressContainer">
     <div className="progress"></div>
-</div>
+</div> */}
       </div>
       <div className="slides">
 

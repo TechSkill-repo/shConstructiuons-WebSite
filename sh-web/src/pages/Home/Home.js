@@ -10,13 +10,17 @@ import News from '../../components/News/News'
 
 import ScrollAnimation from "react-animate-on-scroll";
 import Footer from '../../components/Footer/Footer'
+import Achievements from '../../components/Achievements/Achievements'
 
 function Home() {
   return (
     <div>
          <Nav></Nav>
          <Hero></Hero>
-         <About></About>
+         <ScrollAnimation animatePreScroll="false" animateIn="fadeInUp">
+
+         <Achievements></Achievements>
+         </ScrollAnimation>
          <ScrollAnimation animatePreScroll="false" animateIn="fadeInUp">
 
 

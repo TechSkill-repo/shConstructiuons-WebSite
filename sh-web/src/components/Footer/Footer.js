@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <h2>SH Constructions</h2>
+          <h2 className="cursive">S.H.  Constructions</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
             delectus rem architecto minima corporis molestiae maxime consequatur

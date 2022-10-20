@@ -5,7 +5,7 @@ import { serviceCards as cards } from "../data";
 function Services() {
   return (
     <div className="services">
-      <h3>Services</h3>
+      <h3><span className="cursive">Our</span> Services</h3>
       <p className="src-short">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem quos
         deleniti esse reiciendis? Assumenda, nam. Iure ducimus tempore itaque?
