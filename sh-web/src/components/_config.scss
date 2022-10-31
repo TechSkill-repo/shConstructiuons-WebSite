@@ -1,11 +1,12 @@
 $primary-color: rgb(255, 255, 255);
-$secondary-color: #de5500;
+$secondary-color: #F3681D;
 $blur-color: #4f4f4f62;
 $lighten-bg: #fff1ea;
 
 $logo-font: "Allura", cursive;
 $logo-color:black;
 $body-font: "Raleway", sans-serif;
+$rubik-font: "Rubik", sans-serif;
 
 $h3-font-size: 2.6rem;
 
@@ -27,6 +28,34 @@ h3{
   font-family: $logo-font;
   color: black;
   font-weight: 600;
-  padding: 10px 10px;
+  padding: 10px 10px; 
+}
+
+.p-2{
+  padding:1rem 2rem  !important;
+}
+
+.clip
+{
+  font-family: rubik,Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
   
+  margin-bottom: 1rem !important;
+ 
+}
+
+
+.underline {
+  background: 
+      linear-gradient($secondary-color 0 0) 
+      bottom /var(--d, 0) 3px 
+      no-repeat;
+  transition:0.3s;
+
+  &:hover {
+    --d: 100%;
+  }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/Achievements.css'
+import './Achievements.scss'
 import {achieve_cards as cards} from '../data'
 function Achievements() {
   return (

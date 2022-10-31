@@ -1,103 +1,38 @@
-import React, { useState,useEffect } from "react";
-import "../../styles/Hero.css";
-import {carouselImages} from '../data';
+import "./Hero.scss";
+
+import Navbar from "../../components/Navbar/Navbar";
+import heroBg from "../../assets/hero-bg2.jpg";
 
 function Hero() {
-  const [imgUrl, setImgUrl] = useState(0);
-  const [progress, setProgress] = useState(true);
-
-  
-
-  useEffect(() => {
-    const interval = setInterval(next,3000);
-
-    return () => clearTimeout(interval);
-
-
-  }, [imgUrl]);
-
-  // const startProgress = () =>
-  // {
-
-  //   if(progress)
-  //   {
-  //     document.querySelector(".progress").style.width = "100%";
-  //     setProgress(false);
-  //   }
-  //   else{
-  //     document.querySelector(".progress").style.width = "0%";
-  //     setProgress(true);
-  //   }
-
-  // }
-
-  const previous = _ => {
-    // startProgress();
-    if (imgUrl > 0) {
-      setImgUrl(imgUrl - 1);
-    } else {
-      setImgUrl(carouselImages.length - 1);
-    }
-  
-    
-  };
-  const next = _ => {
-    // startProgress();
-    if (imgUrl < carouselImages.length - 1) {
-      setImgUrl(imgUrl + 1);
-    }
-    else {
-      setImgUrl(0);
-    }
-  };
   return (
     <div className="hero">
+      <Navbar></Navbar>
+      
       <div className="hero-content">
-        <h3>SH Constructions</h3>
-        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing</h5>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-          possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Minima, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Maiores, repudiandae?
-        </p>
-        {/* <div className="progressContainer">
-    <div className="progress"></div>
-</div> */}
-      </div>
-      <div className="slides">
-
-      <img
-        src={carouselImages[0]}
-        alt=""
-        style={{opacity: imgUrl === 0 ? 1 : 0}}
-        />
-      <img
-        
-        src={carouselImages[1]}
-        alt=""
-        style={{opacity: imgUrl === 1 ? 1 : 0}}
-      />
-      <img
-        src={carouselImages[2]}
-        alt=""
-        style={{opacity: imgUrl === 2 ? 1 : 0}}
-        />
-      <img
-        src={carouselImages[3]}
-        alt=""
-        style={{opacity: imgUrl === 3 ? 1 : 0}}
-        />
-        </div>
-
-
-      <div className="left" onClick={previous}>
+        <img src={heroBg} alt="" />
+        <h1 className="hero-heading">
+          Safe, Reliable & high quality Construction
+        </h1>
+        <div className="hero-bottom">
+          <div className="left">
+            <h3>Safe, Reliable & high quality Construction</h3>
+            <p>Construction quality is a crucial factor in grwoing your
+business and staying profitable.</p>
+      <a href="/">VIEW MORE <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.49889 0.96674C8.48052 0.691209 8.24227 0.482738 7.96674 0.501107L3.47671 0.800443C3.20118 0.818811 2.99271 1.05706 3.01107 1.33259C3.02944 1.60813 3.2677 1.8166 3.54323 1.79823L7.53437 1.53215L7.80044 5.52329C7.81881 5.79882 8.05706 6.00729 8.3326 5.98893C8.60813 5.97056 8.8166 5.7323 8.79823 5.45677L8.49889 0.96674ZM1.37629 9.32925L8.37629 1.32925L7.62371 0.670747L0.623712 8.67075L1.37629 9.32925Z" fill="#CA3D00"/>
+</svg>
+</a>
+          </div>
+          <div className="right">
+          <div className="arrow">
         <i className="fas fa-chevron-left left-own-arrow"></i>
       </div>
-      <div className="right" onClick={next}>
+      <div className="arrow" >
         <i className="fas fa-chevron-right right-own-arrow"></i>
       </div>
-    
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
