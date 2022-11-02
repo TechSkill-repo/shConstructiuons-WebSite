@@ -1,0 +1,98 @@
+@import "../config";
+
+.team {
+  display: flex;
+  // margin: 5rem 0;
+  background: url("../../assets/team-bg.png") no-repeat center center/cover;
+  margin: 4rem 0;
+
+  .right {
+    flex: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 0;
+    margin-left: 4rem;
+    h1 {
+      font-family: $body-font;
+      font-size: 3rem;
+      // padding-left: 3rem;
+      width: 95%;
+    }
+    .team-para {
+      margin: 2rem 0;
+      font-family: $rubik-font;
+
+      text-align: left;
+      color: #657078;
+
+      font-size: 16px;
+      line-height: 28px;
+      width: 70%;
+    }
+    button {
+      width: 160px;
+      margin-left: 0;
+      // padding: 0;
+    }
+  }
+  .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11rem 0;
+
+    .cards {
+      display: flex;
+      gap: 2rem;
+      .card {
+        padding: 40px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        &::after {
+          content: "";
+          width: 15px;
+          height: 15px;
+          position: absolute;
+          right: 1px;
+          top: 1px;
+          background-color: $secondary-color;
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+        }
+        .img {
+          box-sizing: border-box;
+          img {
+            width: 180px;
+            border-radius: 50%;
+          }
+        }
+        .card-content {
+          margin-top: 25px;
+          .name {
+            line-height: 28px;
+            text-transform: none;
+            font-weight: 700;
+            letter-spacing: 0px;
+            color: #000000;
+            font-family: $body-font;
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+          .des {
+            color: gray;
+          }
+          .socials {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
