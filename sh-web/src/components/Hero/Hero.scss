@@ -3,7 +3,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 105vh;
   position: relative;
   gap: 5rem;
   background-image: linear-gradient(
@@ -25,9 +25,10 @@
       font-size: 70px;
       text-align: center;
       font-family: $body-font;
-      width: 49%;
+      width: 75%;
+      font-weight: 800;
       padding: 0 4rem;
-
+      line-height: 80px;
       font-weight: 600;
       z-index: 1;
       margin-bottom: 0;
@@ -48,7 +49,7 @@
         flex: 2;
         background: #232526;
         background: -webkit-linear-gradient(to right, #414345d4, #232526d0);
-        background: linear-gradient(to right,  #414345d4, #232526d0);
+        background: linear-gradient(to right, #414345d4, #232526d0);
 
         color: white;
         padding: 1.5rem 3rem;
@@ -59,7 +60,7 @@
           font-family: $body-font;
         }
         p {
-          font-family:$rubik-font;
+          font-family: $rubik-font;
           font-size: 13px;
         }
         a {
@@ -68,7 +69,7 @@
           font-weight: 500;
           color: white;
           text-decoration: none;
-          svg{
+          svg {
             margin-left: 5px;
           }
         }
