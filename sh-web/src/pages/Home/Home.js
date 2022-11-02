@@ -7,6 +7,7 @@ import Services from '../../components/Services/Services'
 import Clients from '../../components/Clients/Clients'
 import Team from '../../components/Team/Team'
 import Events from '../../components/Events/Events'
+import Footer from '../../components/Footer/Footer'
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       <Clients></Clients>
       <Team></Team>
       <Events></Events>
+      <Footer></Footer>
         
     </div>
   )
