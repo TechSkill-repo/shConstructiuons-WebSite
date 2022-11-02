@@ -3,7 +3,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 110vh;
   position: relative;
   gap: 5rem;
   background-image: linear-gradient(
@@ -22,7 +22,7 @@
 
     .hero-heading {
       color: $primary-color;
-      font-size: 3.4rem;
+      font-size: 70px;
       text-align: center;
       font-family: $body-font;
       width: 49%;

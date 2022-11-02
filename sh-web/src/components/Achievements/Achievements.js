@@ -3,10 +3,12 @@ import './Achievements.scss'
 import {achieve_cards as cards} from '../data'
 function Achievements() {
   return (
-    <div className='achievements'>
+    <div className='achievements p-2'>
 
-            <h3> <span className='cursive'>Our</span> Achievements</h3>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius rerum fugiat corrupti expedita dolorum dignissimos, similique iste error quis odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita nostrum temporibus aliquid ipsam odio illo sapiente omnis. Velit, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, similique!</p>
+            <p className="clip">WHAT WE OFFER</p>
+            <h1 className="company-heading">
+       Works Showcase
+        </h1>
 
              <div className="achieve-cards">
 

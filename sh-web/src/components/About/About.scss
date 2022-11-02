@@ -8,6 +8,7 @@
 
     .left{
            flex: 1;
+           padding: 5rem 0;
            .row{
             // height: 100%;
             // width: 100%;
@@ -19,8 +20,52 @@
                 background-color: #ffff;
                 height: 300px;
                 width: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                padding: 1rem 0;
+               box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+               transition: all 0.2s ease-in-out;
+               cursor: pointer;
+               &:hover
+                {
+                    background-color: lighten($secondary-color,15%);
 
+                }
+               
 
+                img{
+                    height: 50px;
+                }
+                h3{
+                    font-family: $body-font;
+
+                }
+
+                p{
+                    text-align: center;
+                    margin-bottom: 30px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: $rubik-font;
+                }
+                button{
+                    width: 36px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    background: #fff;
+                    border: 1px solid $secondary-color;
+                    color: $secondary-color;
+                    cursor: pointer;
+                    
+                }
+
+                
             }
         
            }
@@ -28,6 +73,7 @@
     .right{
             flex: 1;
             padding: 3rem;
+            padding-top: 5rem;
             p{
                 padding-left: 3rem;
             }
@@ -50,34 +96,40 @@
                     line-height: 28px;
 
             }
-            button{
-                font-size: 12px;
-                font-weight: 500;
-                font-family: $rubik-font;
-                text-transform: uppercase;
-                letter-spacing: .22px;
-                fill: #657078;
-                color: #657078;
-                background-color: #02010100;
-                border-style: solid;
-                border-width: 3px;
-                border-color: #e1e4e6;
-                border-radius: 25px 25px 25px 25px;
-                padding: 17px 35px 14px;
-                margin-left: 3rem;
-                transition: all .3s;
-                cursor: pointer;
-                
+           
 
-                &:hover{
-                    color: #fff;
-                    background-color: $secondary-color;
-                    border-color: transparent;
-                }
-                svg{
-                    margin-left: 4px;
-                }
-            }
+    }
+}
+.company-profile{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     background:  url('../../assets/companyProfile.png') no-repeat center center/cover;
+     max-width: 1410px;
+     min-height: 750px;
+    justify-content:center ;
 
+
+    h1{
+        font-family: $body-font;
+        font-size: 3rem;
+        // padding-left: 3rem;
+        width: 95%;
+    }
+    .company-para{
+        margin: 2rem 0;
+        font-family: $rubik-font;
+     
+            text-align: left;
+            color: #657078;
+          
+            font-size: 16px;
+            line-height: 28px;
+            width: 40%;
+    }
+    button{
+        width: 180px;
+        margin-left: 0;
+        // padding: 0;
     }
 }

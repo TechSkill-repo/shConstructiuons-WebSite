@@ -1,0 +1,136 @@
+@import "../config";
+
+.services {
+  padding: 4rem 2rem;
+  a{
+    color: black;
+    svg{
+      fill:$secondary-color;
+      font-size: 16px;
+      width: 10px !important;
+      height: 10px !important;
+    }
+  }
+  .services-top {
+    display: flex;
+    gap: 1rem;
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-family: $body-font;
+        font-size: 3rem;
+        // padding-left: 3rem;
+        width: 95%;
+      }
+      .services-para {
+        margin: 2rem 0;
+        font-family: $rubik-font;
+
+        text-align: left;
+        color: #657078;
+
+        font-size: 16px;
+        line-height: 28px;
+        width: 90%;
+      }
+      button {
+        width: 160px;
+        margin-left: 0;
+        // padding: 0;
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+     
+    }
+  }
+  .services-bottom{
+          display: flex;
+          margin-top: 2rem;
+          gap: 1rem;
+  }
+  .card {
+    background-color: #ffff;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    border: 2px solid rgba(241, 241, 241, 0.731);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+    background: white;
+    background: -webkit-linear-gradient(
+        to right,
+        #ffff,
+        #ffff
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #ffff,
+        #ffff
+      ); /* W3/* fallback for old browsers */
+
+
+    // align-items: center;
+    .index {
+      margin-bottom: 5rem;
+      color: black;
+    }
+    img {
+      height: 60px;
+      width: 60px;
+    }
+    svg {
+      height: 60px;
+      width: 60px;
+      fill: $secondary-color;
+    }
+    h4 {
+      line-height: 28px;
+      text-transform: none;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #000000;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: $body-font;
+    }
+    a {
+      font-size: 12px;
+      letter-spacing: 0.02em;
+      margin-right: 5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: black;
+    }
+   
+  
+    &:hover {
+      background: #fe8c00; /* fallback for old browsers */
+      background: linear-gradient(45deg,#e64a14 1%,#ffc24b 100%);
+      transition: all 0.2s ease;
+    }
+    &:hover h4{
+          color: white;
+         
+    }
+    &:hover p{
+        color: white;
+       
+  }
+  &:hover a{
+    color: white;
+   
+}
+    &:hover svg{
+        fill: white !important;
+    }
+  }
+
+}

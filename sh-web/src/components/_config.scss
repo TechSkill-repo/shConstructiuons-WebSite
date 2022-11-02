@@ -47,7 +47,34 @@ h3{
  
 }
 
+.homepage-btn{
+  font-size: 12px;
+  font-weight: 500;
+  font-family: $rubik-font;
+  text-transform: uppercase;
+  letter-spacing: .22px;
+  fill: #657078;
+  color: #657078;
+  background-color: #02010100;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #e1e4e6;
+  border-radius: 25px 25px 25px 25px;
+  padding: 17px 35px 14px;
+  margin-left: 3rem;
+  transition: all .3s;
+  cursor: pointer;
+  
 
+  &:hover{
+      color: #fff;
+      background-color: $secondary-color;
+      border-color: transparent;
+  }
+  svg{
+      margin-left: 4px;
+  }
+}
 .underline {
   background: 
       linear-gradient($secondary-color 0 0) 
@@ -58,4 +85,12 @@ h3{
   &:hover {
     --d: 100%;
   }
+}
+
+h1 {
+  font-family: $body-font;
+  font-size: 57px;
+  line-height: 72px;
+  // padding-left: 3rem;
+  width: 95%;
 }
