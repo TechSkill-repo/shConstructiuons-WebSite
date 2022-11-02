@@ -1,35 +1,32 @@
-@import '../config';
+@import "../config";
 
-.navbar{
-    display: flex;
-    gap: 5rem;
-    align-items: center;
+.navbar {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  color: white;
+  .logo {
+    font-size: 33px;
     color: white;
-    .logo{
-        font-size: 30px;
+  }
+  .nav-items {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    li {
+      list-style: none;
+
+      a {
+        font-family: rubik, Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-decoration: none;
         color: white;
+        padding: 8px 0;
+      }
     }
-    .nav-items{
-        display: flex;
-        gap: 2rem;
-        align-items: center;
-        li{
-            list-style: none;
-           
-            
-            a{
-                font-family: rubik,Sans-serif;
-                font-size: 13px;
-                font-weight: 500;
-                text-transform: uppercase;
-                line-height: 30px;
-                letter-spacing: 2px;
-                text-decoration: none;
-                color: white;
-                padding: 8px 0;
-            }
-        }
-    }
-
+  }
 }
-

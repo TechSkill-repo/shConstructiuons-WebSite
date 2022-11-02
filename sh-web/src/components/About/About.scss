@@ -1,149 +1,134 @@
-@import '../config';
+@import "../config";
 
-.about{
-    background: url('../../assets/about-bg.png') no-repeat center center/cover;
-    display: flex;
-    padding: 5rem 3rem;
-    
+.about {
+  background: url("../../assets/about-bg.png") no-repeat center center/cover;
+  display: flex;
+  padding: 5rem 3rem;
 
-    .left{
-           flex: 1;
-           padding: 5rem 0;
-           .row{
-            // height: 100%;
-            // width: 100%;
-            display: flex;
-            gap: 2rem;
-            margin-bottom: 2rem;
+  .left {
+    flex: 1;
+    padding: 5rem 0;
+    .row {
+      // height: 100%;
+      // width: 100%;
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
 
-            .card{
-                background-color: #ffff;
-                height: 300px;
-                width: 300px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                
-                padding-top: 20px;
-                padding: 27px;
-               box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-               transition: all 0.2s ease-in-out;
-               cursor: pointer;
-               &:hover
-                {
-                    background-color: lighten($secondary-color,15%);
-                    color: white !important;
+      .card {
+        background-color: #ffff;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-                }
-                &:hover svg
-                {
-                  fill: $primary-color;
+        padding-top: 20px;
+        padding: 27px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          background-color: lighten($secondary-color, 8%);
+          color: white !important;
+        }
+        &:hover svg {
+          fill: $primary-color;
+        }
 
-                }
+        svg {
+          height: 50px;
+          width: 50px;
+          fill: $secondary-color;
+          margin: 23px 0;
+        }
+        h3 {
+          font-family: $body-font;
+          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 22px;
+        }
 
-                svg{
-                    height: 50px;
-                    width: 50px;
-                    fill: $secondary-color;
-                    margin: 23px 0;
-                   
-                }
-                h3{
-                    font-family: $body-font;
-                    margin-bottom: 15px;
-                    font-size: 18px;
-                    line-height: 22px;
-
-                }
-
-                p{
-                    text-align: center;
-                    margin-bottom: 30px;
-                    font-size: 14px;
-                    line-height: 22px;
-                    font-family: $rubik-font;
-                }
-                button{
-                    width: 36px;
-                    height: 36px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 50%;
-                    background: #fff;
-                    border: 1px solid $secondary-color;
-                    color: $secondary-color;
-                    cursor: pointer;
-                    
-                }
-
-                
-            }
-        
-           }
+        p {
+          text-align: center;
+          margin-bottom: 30px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: $rubik-font;
+        }
+        button {
+          width: 36px;
+          height: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background: #fff;
+          border: 1px solid $secondary-color;
+          color: $secondary-color;
+          cursor: pointer;
+        }
+      }
     }
-    .right{
-            flex: 1;
-            padding: 3rem;
-            padding-top: 5rem;
-            p{
-                padding-left: 3rem;
-            }
-            
-            h1{
-
-                  font-family: $body-font;
-                  font-size: 52px;
-                  line-height: 72px;
-                  padding-left: 3rem;
-                  width: 100%;
-            }
-            .about-para{
-                margin: 2rem 0;
-                font-family: $rubik-font;
-             
-                    text-align: left;
-                    color: #657078;
-                  
-                    font-size: 16px;
-                    line-height: 28px;
-
-            }
-           
-
+  }
+  .right {
+    flex: 1;
+    padding: 3rem;
+    padding-top: 5rem;
+    p {
+      padding-left: 3rem;
     }
+
+    h1 {
+      font-family: $body-font;
+      font-size: 52px;
+      line-height: 72px;
+      padding-left: 3rem;
+      width: 100%;
+    }
+    .about-para {
+      margin: 2rem 0;
+      font-family: $rubik-font;
+
+      text-align: left;
+      color: #657078;
+
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
 }
-.company-profile{
-     display: flex;
-     flex-direction: column;
-     gap: 1rem;
-     background:  url('../../assets/companyProfile.png') no-repeat center center/cover;
-     max-width: 1410px;
-     min-height: 750px;
-    justify-content:center ;
+.company-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: url("../../assets/companyProfile.png") no-repeat center
+    center/cover;
+  max-width: 1410px;
+  min-height: 750px;
+  justify-content: center;
 
+  h1 {
+    font-family: $body-font;
+    font-size: 3rem;
+    // padding-left: 3rem;
+    width: 95%;
+  }
+  .company-para {
+    margin: 2rem 0;
+    font-family: $rubik-font;
 
-    h1{
-        font-family: $body-font;
-        font-size: 3rem;
-        // padding-left: 3rem;
-        width: 95%;
-    }
-    .company-para{
-        margin: 2rem 0;
-        font-family: $rubik-font;
-     
-            text-align: left;
-            color: #657078;
-          
-            font-size: 16px;
-            line-height: 28px;
-            width: 40%;
-    }
-    button{
-        width: 180px;
-        margin-left: 0;
-        // padding: 0;
-    }
+    text-align: left;
+    color: #657078;
+
+    font-size: 16px;
+    line-height: 28px;
+    width: 40%;
+  }
+  button {
+    width: 180px;
+    margin-left: 0;
+    // padding: 0;
+  }
 }
