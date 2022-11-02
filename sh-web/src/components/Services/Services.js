@@ -69,7 +69,7 @@ function Services() {
             </a>
           </div>
           <div className="card">
-            <p className="clip">02.</p>
+            <p className="clip index">02.</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id="Capa_1"
