@@ -14,7 +14,7 @@ function Services() {
       <div className="services-top">
         <div className="left">
           <p className="clip">WHAT WE OFFER</p>
-          <h1 className="services-heading">Featured Services</h1>
+          <h1 className="services-heading">Featured Safety</h1>
           <p className="services-para">
             We have a wealth of experience working as main building contractors
             on all kinds of projects, big and small, from home maintenance and

@@ -1,4 +1,5 @@
 import "./Teams.scss";
+import Manager from "../../assets/manager.png";
 
 function Team() {
   return (
@@ -7,19 +8,11 @@ function Team() {
         <div className="cards">
           <div className="card">
             <div className="img">
-              <img
-                src="https://preview.codeless.co/bygge/default/wp-content/uploads/2021/06/staff-4.png"
-                alt=""
-              />
+              <img src={Manager} alt="" />
             </div>
             <div class="card-content">
-              <h4 class="name">
-               
-              Mark Spencer
-
-              
-              </h4>
-              <div class="clip des">ARCHITECT</div>
+              <h4 class="name">Hanzla Haroon</h4>
+              <div class="clip des">Manager</div>
               <div class="team-socials">
                 <a href="#">
                   <i class="cl-icon-twitter"></i>
@@ -45,11 +38,7 @@ function Team() {
               />
             </div>
             <div class="card-content">
-              <h4 class="name">
-               
-                  Simon John
-              
-              </h4>
+              <h4 class="name">Simon John</h4>
               <div class="clip des">CTO/CO FOUNDER</div>
               <div class="team-socials">
                 <a href="#">
