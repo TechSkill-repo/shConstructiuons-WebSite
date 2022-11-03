@@ -1,7 +1,16 @@
-import React from "react";
+import Hero from "../../components/About/Hero/Hero";
+import Stats from "../../components/About/Stats/Stats";
+
 
 function About() {
-  return <div>About</div>;
+  return (
+    <>
+    <Hero></Hero>
+    <Stats></Stats>
+    
+    </>
+
+  );
 }
 
 export default About;

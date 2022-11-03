@@ -1,5 +1,5 @@
 import "./Teams.scss";
-import Manager from "../../assets/manager.png";
+import Manager from "../../../assets/manager.png";
 
 function Team() {
   return (

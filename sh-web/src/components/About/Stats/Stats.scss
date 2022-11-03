@@ -1,0 +1,90 @@
+@import '../../config';
+
+.stats{
+
+    display: flex;
+    background: url('../../../assets/about-page-2nd.webp') no-repeat center center/cover;
+    padding: 0 4rem !important;
+
+    .left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 10rem 0;
+        h1{
+            margin-bottom: 2rem;
+            letter-spacing: -0.05em !important;
+            font-size: 53px !important;
+            width: 90%;
+        }
+        p{
+            width: 78%;
+        }
+    }
+    .right{
+        flex: 1;
+        padding: 4rem 0;
+        display: flex;
+        flex-direction: column;
+
+        gap: 2rem;
+        .row{
+           
+            display: flex;
+            gap: 2rem;
+            .stats-card{
+                width: 300px;
+            background: white;
+            /* padding: 2rem; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 315px;
+            padding: 28px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+            .stats-card-top{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+                h1{
+                    font-size: 66px;
+                    line-height: 54px;
+                    letter-spacing: -0.05em !important;
+                    sup{
+                        font-size: 30px;
+    vertical-align: super;
+  
+    position: relative;
+    top: -10px;
+    left: 3px;
+                    }
+                }
+                p{
+                    font-family: $body-font;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding-left: 7px;
+                }
+
+            }
+            .stats-card-bottom{
+                border-top:1px solid #8080808c;
+                
+                padding-top: 1.5rem;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 0px;
+                line-height: 23px;
+                text-transform: none;
+                color: gray;
+            }
+        }
+    }
+    .row-2{
+        justify-content: end;
+       
+    }
+}
+}

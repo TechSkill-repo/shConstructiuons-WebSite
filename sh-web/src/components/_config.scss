@@ -3,7 +3,7 @@ $secondary-color: #F3681D;
 $blur-color: #4f4f4f62;
 $lighten-bg: #fff1ea;
 
-$logo-font: "Allura", cursive;
+$logo-font: 'Simple Brush Script', sans-serif;
 $logo-color:black;
 $body-font: 'Manrope', sans-serif;
 $rubik-font: "Rubik", sans-serif;
@@ -93,4 +93,14 @@ h1 {
   line-height: 72px;
   // padding-left: 3rem;
   width: 95%;
+}
+
+.description{
+  font-family: $rubik-font;
+
+  text-align: left;
+  color: #657078;
+
+  font-size: 16px;
+  line-height: 28px;
 }
