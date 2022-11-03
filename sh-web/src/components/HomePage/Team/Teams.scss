@@ -1,9 +1,9 @@
-@import "../config";
+@import "../../config";
 
 .team {
   display: flex;
   // margin: 5rem 0;
-  background: url("../../assets/team-bg.png") no-repeat center center/cover;
+  background: url("../../../assets/team-bg.png") no-repeat center center/cover;
   margin: 4rem 0;
 
   .right {

@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Achievements from '../../components/Achievements/Achievements'
-import Hero from '../../components/Hero/Hero'
-import About from '../../components/About/About'
-import Services from '../../components/Services/Services'
-import Clients from '../../components/Clients/Clients'
-import Team from '../../components/Team/Team'
-import Events from '../../components/Events/Events'
-import Footer from '../../components/Footer/Footer'
+import Achievements from '../../components/HomePage/Achievements/Achievements'
+import Hero from '../../components/HomePage/Hero/Hero'
+import About from '../../components/HomePage/About/About'
+import Services from '../../components/HomePage/Services/Services'
+import Clients from '../../components/HomePage/Clients/Clients'
+import Team from '../../components/HomePage/Team/Team'
+import Events from '../../components/HomePage/Events/Events'
+import Footer from '../../components/HomePage/Footer/Footer'
 
 
 function Home() {

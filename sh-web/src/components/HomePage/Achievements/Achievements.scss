@@ -1,4 +1,4 @@
-@import '../config';
+@import '../../config';
 
 .achievements {
   display: flex;
@@ -12,7 +12,7 @@
   gap: 1rem;
   height: 700px;
   font-family: $body-font;
-  background: url('../../assets/workShowcase.png');
+  background: url('../../../assets/workShowcase.png');
   h1{
     font-family: $body-font;
     font-size: 3rem;

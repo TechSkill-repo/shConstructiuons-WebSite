@@ -1,6 +1,6 @@
 import React from 'react'
 import './Achievements.scss'
-import {achieve_cards as cards} from '../data'
+import {achieve_cards as cards} from '../../data'
 function Achievements() {
   return (
     <div className='achievements p-2'>

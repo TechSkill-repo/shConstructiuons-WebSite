@@ -1,7 +1,7 @@
 import "./Hero.scss";
 
-import Navbar from "../../components/Navbar/Navbar";
-import heroBg from "../../assets/hero-bg.jpg";
+import Navbar from "../Navbar/Navbar";
+import heroBg from "../../../assets/hero-bg.jpg";
 
 function Hero() {
   return (

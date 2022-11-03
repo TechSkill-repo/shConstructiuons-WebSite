@@ -1,11 +1,11 @@
 import React from "react";
-import card1 from "../../assets/services-card1.png";
+import card1 from "../../../assets/services-card1.png";
 
-import card2 from "../../assets/services-card2.png";
-import card3 from "../../assets/services-card3.png";
-import card4 from "../../assets/services-card4.png";
-import card5 from "../../assets/services-card45.png";
-import card6 from "../../assets/services-card6.png";
+import card2 from "../../../assets/services-card2.png";
+import card3 from "../../../assets/services-card3.png";
+import card4 from "../../../assets/services-card4.png";
+import card5 from "../../../assets/services-card45.png";
+import card6 from "../../../assets/services-card6.png";
 import "./Services.scss";
 
 function Services() {
