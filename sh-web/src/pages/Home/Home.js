@@ -7,7 +7,7 @@ import Services from '../../components/HomePage/Services/Services'
 import Clients from '../../components/HomePage/Clients/Clients'
 import Team from '../../components/HomePage/Team/Team'
 import Events from '../../components/HomePage/Events/Events'
-import Footer from '../../components/HomePage/Footer/Footer'
+import Footer from '../../components/Footer/Footer'
 
 
 function Home() {

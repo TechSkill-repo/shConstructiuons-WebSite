@@ -46,6 +46,21 @@ function Stats() {
           </div>
         </div>
         <div className="row row-2">
+
+        <div className="stats-card hidden-card">
+            <div className="stats-card-top">
+              <h1>
+                98<sup>%</sup>
+              </h1>
+              <p>Satisfaction</p>
+            </div>
+            <div className="stats-card-bottom clip">
+              <p>
+                We have a wealth of experience working as main building
+                contractors.
+              </p>
+            </div>
+          </div>
         
           <div className="stats-card">
             <div className="stats-card-top">

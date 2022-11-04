@@ -30,9 +30,14 @@
 
         gap: 2rem;
         .row{
-           
+            
+            
             display: flex;
             gap: 2rem;
+            .hidden-card{
+                visibility: hidden;
+                pointer-events: none;
+            }
             .stats-card{
                 width: 300px;
             background: white;
@@ -82,9 +87,6 @@
             }
         }
     }
-    .row-2{
-        justify-content: end;
-       
-    }
+    
 }
 }
