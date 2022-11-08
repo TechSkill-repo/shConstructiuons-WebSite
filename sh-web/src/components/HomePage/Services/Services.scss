@@ -1,7 +1,7 @@
 @import "../../config";
 
 .services {
-  padding: 4rem 2rem;
+  padding: 4rem 3rem;
   a{
     color: black;
     svg{
@@ -44,24 +44,26 @@
     .right {
       flex: 1;
       display: flex;
+      justify-content: space-between;
      
     }
   }
   .services-bottom{
           display: flex;
           margin-top: 2rem;
-          gap: 1rem;
+          // gap: 1rem;
+          justify-content: space-between;
   }
   .card {
-    background-color: #ffff;
-    height: 320px;
-    width: 300px;
+    // background-color: #ffff;
+    height: 340px;
+    width: 333px;
     display: flex;
     flex-direction: column;
     // justify-content: space-around;
     padding: 1rem 2rem;
     border: 2px solid rgba(241, 241, 241, 0.731);
-    transition: all 0.3s ease-in-out;
+    transition:background 0.3s ease-in-out;
     cursor: pointer;
     
     background: white;

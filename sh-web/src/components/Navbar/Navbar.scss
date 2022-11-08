@@ -6,8 +6,29 @@
   align-items: center;
   color: white;
   .logo {
-    font-size: 33px;
-    color: white;
+     height: 60px;
+     width: 300px;
+     color: white;
+    z-index: 2;
+    svg{
+      height: 40px !important;
+      width: 300px !important;
+      position: relative;
+      fill: #ffff !important;
+      stroke: white !important;
+
+      path{
+        fill: white;
+      }
+     
+    }
+     svg{
+
+       fill: white;
+       
+      }
+      
+    
   }
   .nav-items {
     display: flex;

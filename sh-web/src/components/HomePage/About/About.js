@@ -3,11 +3,13 @@ import card1 from "../../../assets/about-card1.png";
 import card2 from "../../../assets/about-card2.png";
 import card3 from "../../../assets/about-card3.png";
 import card4 from "../../../assets/about-card4.png";
+import abtBg from "../../../assets/about-bg.png";
 
 function About() {
   return (
     <>
       <div className="about">
+        {/* <img src={abtBg} alt="" className="abtBg" /> */}
         <div className="left">
           <div className="row">
             <div className="card">

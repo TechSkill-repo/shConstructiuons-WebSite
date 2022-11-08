@@ -3,7 +3,9 @@
 
 .projects{
     display: flex;
-    background: url('../../../assets/about-bg.png') no-repeat center center fixed;
+    background: url('../../../assets/about-bg.png') no-repeat;
+    background-position: top;
+    background-size: cover;
     padding: 8rem 4rem;
 
     .left

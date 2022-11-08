@@ -82,6 +82,21 @@
     .logo {
       color: #b2bdc6 !important;
       font-size: 25px;
+
+      svg{
+        height: 40px !important;
+        width:  250px !important;
+
+        left: 15px;
+        position: relative;
+        fill: #ffff !important;
+        stroke: white !important;
+  
+        path{
+          fill: white;
+        }
+       
+      }
     }
     h3 {
       font-size: 25px;
@@ -102,7 +117,8 @@
       flex-direction: column;
       gap: 1.3rem;
       font-family: $rubik-font;
-      font-size: 14px;
+      font-size: 16px;
+      letter-spacing: 1.2px !important;
     }
     .links {
       p {
