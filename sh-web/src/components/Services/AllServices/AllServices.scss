@@ -1,0 +1,47 @@
+@import '../../config';
+
+.all-services{
+     padding: 4rem;
+     h1{
+        letter-spacing: -0.05em !important;
+            font-size: 53px !important;
+     }
+
+     &-cards{
+
+        &-card{
+
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              gap: 2rem;
+              height: 300px;
+              padding: 0 2rem;
+              margin-top: 2rem;
+            //   align-items: center;
+              h2{
+                    font-size: 40px;
+                    font-weight: 600;
+                    font-family: $body-font;
+                    color: darken($secondary-color,7%);
+              }
+              p{
+                font-size: 19px;
+                font-weight: 500;
+                color: black;
+                margin-top: 1rem;
+              }
+              img{
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                object-position: center;
+                opacity: 0.37;
+                z-index: -1;
+              }    
+        }
+     }
+}

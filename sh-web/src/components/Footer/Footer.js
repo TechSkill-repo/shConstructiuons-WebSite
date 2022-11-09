@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 function Footer() {
@@ -39,9 +40,10 @@ function Footer() {
         <div className="sub-grp">
             <h3>Links</h3>
             <div className="content links">
-                <p>Home</p>
-                <p>About</p>
-                <p>Services</p>
+               <Link to="/"> <p>Home</p></Link>
+               <Link to="/about"> <p>About</p></Link>
+               <Link to="/services"> <p>Services</p></Link>
+                
                 <p>Blog</p>
                 <p>Contact</p>
                 </div>

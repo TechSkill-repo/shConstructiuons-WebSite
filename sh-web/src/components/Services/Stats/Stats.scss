@@ -1,0 +1,88 @@
+@import '../../config';
+
+.stats-page{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 6rem 4rem ;
+    h1{
+        letter-spacing: -0.05em !important;
+            font-size: 52px !important;
+     }
+    
+   
+
+    &-cards{
+        
+            
+            
+            display: flex;
+            // gap: 2rem;
+            
+    align-items: baseline;
+    justify-content: space-between;
+           
+            .stats-page-card{
+                width: 300px;
+            background: white;
+            /* padding: 2rem; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 315px;
+            padding: 28px;
+            padding-left: 0;
+            // box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+            .stats-page-card-top{
+                display: flex;
+               
+                gap: 1rem;
+                svg {
+                    height: 50px;
+                    width: 50px;
+                    fill: $secondary-color;
+                    margin: 23px 0;
+                  }
+                  &-content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    align-items: flex-start;
+                      h1{
+                          font-size: 66px;
+                          line-height: 54px;
+                          letter-spacing: -0.05em !important;
+                          sup{
+                              font-size: 30px;
+                              vertical-align: super;
+                              
+                              position: relative;
+                              top: -10px;
+                              left: 3px;
+                            }
+                        }
+                    }
+                p{
+                    font-family: $body-font;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding-left: 7px;
+                }
+
+            }
+            .stats-page-card-bottom{
+                border-top:1px solid #8080808c;
+                
+                padding-top: 1.5rem;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 0px;
+                line-height: 23px;
+                text-transform: none;
+                color: gray;
+            }
+        }
+    }
+    
+}

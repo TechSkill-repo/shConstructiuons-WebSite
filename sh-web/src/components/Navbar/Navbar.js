@@ -15,10 +15,10 @@ function Navbar() {
           <Link to={'/'}>Home</Link>
         </li>
         <li className="underline">
-          <Link to={'about'}>About</Link>
+          <Link to={'/about'}>About</Link>
         </li>
         <li className="underline">
-          <a href="#">Services</a>
+          <Link to='/services'>Services</Link>
         </li>
         <li className="underline">
           <a href="#">Features</a>
