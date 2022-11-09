@@ -1,7 +1,7 @@
 import "./App.css";
 import About from './pages/About/About';
 import Home from "./pages/Home/Home";
-import Sliders from "./pages/Sliders";
+// import Sliders from "./pages/Sliders";
 import Services from "./pages/Services/Services";
 import {
   BrowserRouter,
@@ -22,7 +22,7 @@ function App() {
         
       
       <Route exact path="services" element={<Services />}/>
-      <Route exact path="/check" element={<Sliders />}/>
+      {/* <Route exact path="/check" element={<Sliders />}/> */}
        
       </Route>
         
