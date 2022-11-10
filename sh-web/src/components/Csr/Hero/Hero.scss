@@ -1,0 +1,62 @@
+@import '../../config';
+
+.csr-page
+{
+    position: relative;
+
+   .csr-hero-bg{
+        position: absolute;
+        height: inherit;
+        top: 0;
+        z-index: -1;
+        object-fit: cover;
+        width: 100%;
+    
+    }
+
+
+.csr-hero{
+    
+    height: 28vh;
+    display: flex;
+    padding: 8rem 4rem;
+    align-items: center;
+   
+    
+    &-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   
+        color: white !important;
+         h4{
+            display: flex;
+            align-items: center;
+            font-family: $rubik-font;
+            font-weight: 400;
+            font-size: 15px;
+         }
+        .delimeter{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            display: inherit;
+            margin-top: 0;
+            padding: 0;
+            margin: 1px 10px;
+            background-color: #ffffff;
+        }
+        h1{
+            letter-spacing: -0.05em !important;
+            font-size: 65px;
+            line-height: 72px;
+            text-transform: none;
+            font-weight: 700;
+    
+        }
+    }
+
+}
+
+}

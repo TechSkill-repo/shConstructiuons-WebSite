@@ -1,0 +1,64 @@
+@import "../../config";
+
+.csr-container {
+  padding: 4rem;
+
+  .heading {
+    margin-bottom: 2rem;
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  .csr-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .csr-row{
+        display: flex;
+        justify-content: space-evenly !important;
+        // gap: 1rem;
+    }
+    // justify-content: center;
+
+    // gap: 1rem;
+    // justify-content: space-evenly;
+    .csr-row-more
+    {
+        
+        // .csr-image {
+
+        //     height: 400px;
+        //     width: 450px;
+        // }
+        img{
+            height: 310px  !important;
+            width: 400px !important;
+        }
+    }
+    .csr-image {
+     
+
+        // height:500px;
+        // width: 700px;
+        border-bottom: 2px solid rgb(198, 198, 198);
+        padding: 1rem;
+        padding-bottom: 10px;
+      
+    }
+    img {
+      height: 400px  !important;
+      width: 610px !important;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+
+    p{
+        font-family: $body-font;
+        font-weight: 600;
+        color: rgba(26, 26, 26, 0.783);
+    }
+  }
+}
