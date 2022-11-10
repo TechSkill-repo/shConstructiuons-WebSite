@@ -21,10 +21,10 @@ function Navbar() {
           <Link to='/services'>Services</Link>
         </li>
         <li className="underline">
-          <a href="#">Features</a>
+          <Link to="/csr">CSR</Link>
         </li>
         <li className="underline">
-          <a href="#">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
     </div>

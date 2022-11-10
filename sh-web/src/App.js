@@ -3,6 +3,8 @@ import About from './pages/About/About';
 import Home from "./pages/Home/Home";
 // import Sliders from "./pages/Sliders";
 import Services from "./pages/Services/Services";
+import Contact from "./pages/Contact/Contact";
+import CSR from "./pages/CSR/CSR";
 import {
   BrowserRouter,
   Routes,
@@ -22,6 +24,8 @@ function App() {
         
       
       <Route exact path="services" element={<Services />}/>
+      <Route exact path="csr" element={<CSR />}/>
+      <Route exact path="contact" element={<Contact />}/>
       {/* <Route exact path="/check" element={<Sliders />}/> */}
        
       </Route>

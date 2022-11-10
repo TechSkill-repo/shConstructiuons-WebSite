@@ -1,13 +1,18 @@
 @import "../../config";
 
 .all-services {
-  padding: 4rem;
+  padding: 4rem 0;
   h1 {
     letter-spacing: -0.05em !important;
     font-size: 53px !important;
+   
+  }
+  .all-services-heading{
+    padding-left: 4rem;
   }
 
   &-cards {
+    margin-top: 1.5rem;
     &-card {
       position: relative;
       display: flex;
@@ -15,9 +20,10 @@
       justify-content: center;
       gap: 2rem;
       height: 300px;
-      padding: 0 2rem;
-      margin-top: 2rem;
-      box-shadow: rgba(0, 0, 0, 0.653) 800px -600px 400px -300px inset;
+      padding: 0 4rem;
+      margin-top: 1.5rem;
+      border-bottom: 3px solid darken($secondary-color,10%);
+      box-shadow: rgba(0, 0, 0, 0.708) 800px -600px 300px -200px inset;
       //   align-items: center;
       h2 {
         font-size: 50px;
@@ -31,7 +37,7 @@
         font-weight: 500;
         color: rgb(234, 234, 234);
         margin-top: 1rem;
-        width: 55%;
+        width: 80%;
         line-height: 1.6rem !important;
       }
       img {

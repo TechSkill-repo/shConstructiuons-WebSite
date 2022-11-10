@@ -1,0 +1,61 @@
+@import '../../config';
+
+.offices{
+    background: url('../../../assets/contact-2.jpg') no-repeat;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    &-cards{
+        display: flex;
+        justify-content: space-evenly;
+
+        &-card{
+            height: 418px;
+            width: 340px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 2rem;
+            gap: 3rem;
+            font-family: $body-font;
+            .card-content{
+                display: flex;
+                gap: 1rem;
+                flex-direction: column;
+                div{
+                    display: flex;
+                    align-items: center;
+                    .location{
+                        margin-right: 10px;
+                    }
+                
+                      p{
+                         display: inline-block;
+                         margin-left: 2rem;
+                         font-size: 17px;
+                         font-weight: 600;
+                         
+                      }
+                }
+
+              
+                i{
+                   color: $secondary-color;
+                   font-size: 35px;
+                }
+            }
+
+            h3{
+                letter-spacing: -0.05em !important;
+                font-size: 27px;
+                line-height: 28px;
+                text-transform: none;
+                font-weight: 700;
+                padding-bottom: 38px;
+    border-bottom: 1px solid rgb(128 128 128 / 51%);
+            }
+        }
+    }
+}
