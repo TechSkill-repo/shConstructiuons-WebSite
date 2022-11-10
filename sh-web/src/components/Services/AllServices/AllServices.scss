@@ -1,13 +1,12 @@
 @import "../../config";
 
 .all-services {
-  padding: 4rem 0;
+  padding: 0rem 0;
   h1 {
     letter-spacing: -0.05em !important;
     font-size: 53px !important;
-   
   }
-  .all-services-heading{
+  .all-services-heading {
     padding-left: 4rem;
   }
 
@@ -18,33 +17,40 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 2rem;
-      height: 300px;
+      gap: 0rem;
+      height: 350px;
       padding: 0 4rem;
-      margin-top: 1.5rem;
-      border-bottom: 3px solid darken($secondary-color,10%);
-      box-shadow: rgba(0, 0, 0, 0.708) 800px -600px 300px -200px inset;
+      // margin-top: 1.5rem;
+      border-bottom: 2px solid darken(lightgray, 10%);
+      box-shadow: rgba(0, 0, 0, 0.708) 800px -600px 350px -200px inset;
       //   align-items: center;
       h2 {
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 800;
         font-family: $body-font;
         color: white;
-
+      }
+      span {
+        font-size: 35px;
+        font-weight: 300;
+        color: rgb(234, 234, 234);
+        margin-top: 1.5rem;
+        width: 60%;
+        line-height: 1.6rem !important;
       }
       p {
         font-size: 19px;
         font-weight: 500;
         color: rgb(234, 234, 234);
-        margin-top: 1rem;
-        width: 80%;
+        margin-top: 1.2rem;
+        width: 60%;
         line-height: 1.6rem !important;
       }
       img {
         position: absolute;
         left: 0;
         width: 100%;
-        height: 300px;
+        height: 350px;
         object-fit: cover;
         object-position: center;
         // opacity: 0.37;

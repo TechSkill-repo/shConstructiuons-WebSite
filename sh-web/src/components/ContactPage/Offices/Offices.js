@@ -10,7 +10,7 @@ function Offices() {
 
       <div className="offices-cards">
         <div className="offices-cards-card">
-          <h3>Office in India</h3>
+          <h3>Jamshedpur Office</h3>
           <div className="card-content">
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
@@ -35,7 +35,7 @@ function Offices() {
         </div>
 
         <div className="offices-cards-card">
-          <h3>Office in India</h3>
+          <h3>Kalinganagar Office</h3>
           <div className="card-content">
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
@@ -61,7 +61,7 @@ function Offices() {
         </div>
 
         <div className="offices-cards-card">
-          <h3>Office in India</h3>
+          <h3>Bokaro Office</h3>
           <div className="card-content">
             <div>
               <i className="fas fa-location-dot location"></i>{" "}
