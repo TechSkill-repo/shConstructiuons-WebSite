@@ -5,19 +5,44 @@
   display: flex;
   padding: 0 3rem;
   padding-bottom: 4rem;
+  @media screen and (max-width: $md) {
+    padding: 0 1rem;
+    padding-bottom: 4rem;
+    flex-direction: column-reverse;
+  
+    
+  }
+ 
+  
 
-  .left {
+  .about-left {
     flex: 1;
     // padding: 5rem 0;
+    @media screen and (max-width: $md) {
+      
+        padding-bottom: 4rem;
+    
+      
+    }
+
    
     .row {
       // height: 100%;
       // width: 100%;
       display: flex;
+      // 
       gap: 2rem;
       margin-bottom: 2rem;
       position: relative;
       top: 5rem;
+
+       @media screen and (max-width: $md) {
+         flex-direction: column;
+       align-items: center;
+       // padding-bottom: 4rem;
+      
+        
+       }
 
       .card {
         background-color: #ffff;
@@ -33,6 +58,15 @@
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+
+        @media screen and (max-width: $md) {
+          width: 100%;
+         
+        
+          
+        }
+          
+        
         &:hover {
           background-color: lighten($secondary-color, 8%);
           color: white !important;
@@ -76,13 +110,30 @@
         }
       }
     }
+    }
   }
-  .right {
+  .about-right {
     flex: 1;
-    padding: 3rem;
+    padding: 3rem 1rem;
     padding-top: 5rem;
+    // @media screen and (max-width: $md) {
+    //   padding: 0 1rem;
+    //   padding-top: 5rem;
+
+    //   // text-align: center;
+    
+      
+    
+      
+    // }
     p {
       padding-left: 3rem;
+      @media screen and (max-width: $md) {
+       
+        padding-left: 0;
+      
+        
+      }
     }
 
     h1 {
@@ -91,6 +142,13 @@
       line-height: 70px;
       padding-left: 3rem;
       width: 100%;
+      @media screen and (max-width: $md) {
+        font-size: 30px;
+        line-height: 50px;
+        padding-left: 0;
+      
+        
+      }
     }
     .about-para {
       margin: 2rem 0;
@@ -103,22 +161,38 @@
       line-height: 28px;
     }
   }
-}
+
 .company-profile {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   background: url("../../../assets/companyProfile.png") no-repeat center
     center/cover;
-  max-width: 1410px;
+  // max-width: 1410px;
   min-height: 750px;
   justify-content: center;
+  @media screen and (max-width: $md) {
+  //  min-height: 500px;
+   padding-top: 3rem !important;
+   padding-bottom: 3rem !important;
+    
+  }
+
+  .clip-about {
+    margin: 4rem 0;
+
+  }
+  
 
   h1 {
     font-family: $body-font;
     font-size: 3rem;
     // padding-left: 3rem;
     width: 95%;
+    @media screen and (max-width: $md) {
+      padding: 0;
+      
+    }
   }
   .company-para {
     margin: 2rem 0;
@@ -130,10 +204,21 @@
     font-size: 16px;
     line-height: 28px;
     width: 40%;
+    @media screen and (max-width: $md) {
+     width: 80%;
+    }
+
   }
   button {
     width: 180px;
     margin-left: 0;
     // padding: 0;
+    @media screen and (max-width: $md) {
+    
+    margin-bottom: 4rem;
+    }
+      
+   
+
   }
 }

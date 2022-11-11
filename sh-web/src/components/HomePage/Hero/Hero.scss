@@ -13,7 +13,17 @@
     rgba(0, 0, 0, 0.324),
     transparent
   );
+  @media screen and (max-width: $md) {
+    
+    height: 63vh;
+    background-image:none;
+    gap: 3rem;
+   
+  
+}
 
+ 
+   
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -35,9 +45,21 @@
       margin-bottom: 0;
       margin-top: 4rem;
       text-align: left;
-      @media screen and (max-width: $sm) {
-        font-size: 2rem;
+      @media screen and (max-width: $md) {
+    
+       
+          line-height: 50px !important;
+          padding: 0 1rem;
+          font-size: 2rem;
+          text-align: left;
+          padding: 0 2rem;
+          margin-top: 0;
+          width: 100%;
+         
+        
       }
+
+
     }
     .hero-bottom {
       display: flex;
@@ -46,7 +68,14 @@
       width: 50%;
       height: 190px;
       margin: 0 4rem;
-      .left {
+      @media screen and (max-width: $md) {
+        width: 100%;
+        margin: 0;
+        display: none;
+      
+        
+      }
+      &-left {
         flex: 2;
         background: #232526;
         background: -webkit-linear-gradient(to right, #414345d4, #232526d0);
@@ -75,7 +104,7 @@
           }
         }
       }
-      .right {
+      &-right {
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -104,5 +133,6 @@
     position: absolute;
     top: 0;
     z-index: -1;
+   
   }
 }

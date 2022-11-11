@@ -5,14 +5,37 @@
   gap: 5rem;
   align-items: center;
   color: white;
+  position: relative;
+  @media screen and (max-width: $md) {
+       justify-content: space-between;
+  }
+
+  .burger{
+    display: none;
+    @media screen and (max-width: $md) {
+     
+     display: block;
+     padding-right: 1rem;
+     i{
+      font-size: 30px;
+      color: white;
+     }
+    }
+  }
   .logo {
      height: 60px;
      width: 300px;
      color: white;
     z-index: 2;
+    @media screen and (max-width: $md) {
+      width: 200px;
+      height: 60px;
+    
+      
+    }
     svg{
-      height: 40px !important;
-      width: 300px !important;
+      height: 35px !important;
+      width: 250px !important;
       position: relative;
       fill: #ffff !important;
       stroke: white !important;
@@ -30,12 +53,52 @@
       
     
   }
+  .show{
+   
+         
+      display:flex !important;
+    
+  
+  }
+  .close{
+    display: none;
+  }
   .nav-items {
     display: flex;
     gap: 2rem;
     align-items: center;
+    @media screen and (max-width: $md) {
+      // display: none;
+       position: absolute;
+       flex-direction: column;
+       background-color: #162129;
+       top: 6rem;
+       width: 100%;
+       left: 0;
+       z-index: 2;
+       display: none ;
+       color: white;
+       gap: 15px;
+       align-items: flex-start;
+       padding: 2rem 0;
+       padding-bottom: 3rem;
+
+      
+    
+      
+    }
     li {
       list-style: none;
+
+      @media screen and (max-width: $md) {
+        padding: 5px;
+    width: 100%;
+    width: 1005;
+    padding-left: 30px;
+    border-bottom: 1px solid #4d4d4d9e;
+      
+        
+      }
 
       a {
         font-family: rubik, Sans-serif;

@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 
 function Navbar() {
+
+  const [showNav, setShowNav] = useState(false);
+
+  const handleNav = ()=>
+  {
+    setShowNav(!showNav);
+    const el = document.querySelector(".nav-items");
+    if(el.classList.contains("show"))
+    el.classList.remove("show");
+    else
+    el.classList.add("show");
+
+    console.log("here")
+    
+
+  
+  }
   return (
     <div className="navbar p-2">
       <div className="logo cursive">
@@ -20,7 +37,7 @@ function Navbar() {
           />
         </svg>
       </div>
-      <ul className="nav-items">
+      <ul className={`nav-items`}>
         <li className="underline">
           <Link to={"/"}>Home</Link>
         </li>
@@ -37,6 +54,12 @@ function Navbar() {
           <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
+
+      <div className="burger">
+
+     {!showNav?<i class="fas fa-bars" onClick={handleNav}></i>: <i class="fas fa-xmark" onClick={handleNav}></i>}
+     
+      </div>
     </div>
   );
 }

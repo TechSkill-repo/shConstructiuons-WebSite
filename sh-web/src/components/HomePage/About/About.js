@@ -10,7 +10,7 @@ function About() {
     <>
       <div className="about">
         {/* <img src={abtBg} alt="" className="abtBg" /> */}
-        <div className="left">
+        <div className="about-left">
           <div className="row">
             <div className="card">
               <svg
@@ -160,7 +160,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="right">
+        <div className="about-right">
           <p className="clip">WHAT WE OFFER</p>
           <h1 className="about-heading">
             Providing solutions for Mechanical Maintenance, Fabrication,
@@ -191,7 +191,7 @@ function About() {
         </div>
       </div>
       <div className="company-profile p-2">
-        <p className="clip">WHAT WE OFFER</p>
+        <p className="clip clip-about">WHAT WE OFFER</p>
         <h1 className="company-heading">Company Profile</h1>
         <p className="company-para">
           We are a long-established, independent building services and home

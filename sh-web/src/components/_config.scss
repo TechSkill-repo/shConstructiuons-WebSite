@@ -33,6 +33,12 @@ h3{
 
 .p-2{
   padding:1rem 3rem  !important;
+
+  @media screen and (max-width: $md) {
+    padding: 1rem 1rem !important;
+     
+    
+  }
 }
 
 .clip
@@ -64,6 +70,12 @@ h3{
   margin-left: 3rem;
   transition: all .3s;
   cursor: pointer;
+  @media screen and (max-width: $md) {
+   margin-left: 0rem;
+   
+  
+    
+  }
   
 
   &:hover{
@@ -93,6 +105,19 @@ h1 {
   line-height: 72px;
   // padding-left: 3rem;
   width: 95%;
+  @media screen and (max-width: $md) {
+    
+       
+    line-height: 50px !important;
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 1rem;
+    margin-top: 0;
+    width: 100%;
+   
+  
+}
 }
 
 .description{
@@ -103,4 +128,14 @@ h1 {
 
   font-size: 16px;
   line-height: 28px;
+
+  @media screen and (max-width: $md) {
+    
+       
+    padding: 0;
+   
+  
+}
+
+
 }

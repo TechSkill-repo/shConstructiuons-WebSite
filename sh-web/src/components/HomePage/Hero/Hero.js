@@ -15,7 +15,7 @@ function Hero() {
           lot more since 1978
         </h1>
         <div className="hero-bottom">
-          <div className="left">
+          <div className="hero-bottom-left">
             <h3>Safe, Reliable & high quality Construction</h3>
             <p>
               Construction quality is a crucial factor in grwoing your business
@@ -37,7 +37,7 @@ function Hero() {
               </svg>
             </a>
           </div>
-          <div className="right">
+          <div className="hero-bottom-right">
             <div className="arrow">
               <i className="fas fa-chevron-left left-own-arrow"></i>
             </div>
