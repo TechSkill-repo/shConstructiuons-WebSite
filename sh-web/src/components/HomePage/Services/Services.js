@@ -12,7 +12,7 @@ function Services() {
   return (
     <div className="services">
       <div className="services-top">
-        <div className="left">
+        <div className="services-top-left">
           <p className="clip">WHAT WE OFFER</p>
           <h1 className="services-heading">Featured Safety</h1>
           <p className="services-para">
@@ -36,7 +36,7 @@ function Services() {
             </svg>
           </button>
         </div>
-        <div className="right">
+        <div className="services-top-right">
           <div className="card">
             <p className="clip index">01.</p>
             <svg

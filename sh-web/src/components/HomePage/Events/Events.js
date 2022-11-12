@@ -20,14 +20,14 @@ function Events() {
           <p className="clip">{new Date().toLocaleDateString()}</p>
           <h3>Why subcontractors need to own their data</h3>
         </div>{" "}
-        <div className="card">
+        <div className="card hide">
           <div className="img">
             <img src="https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/bpost2-300x181.jpg" alt="" />
           </div>
           <p className="clip">{new Date().toLocaleDateString()}</p>
           <h3>How to make a concrete floor slip-resistant?</h3>
         </div>{" "}
-        <div className="card">
+        <div className="card hide">
           <div className="img">
             <img src="https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/bpost1-300x181.jpg" alt="" />
           </div>

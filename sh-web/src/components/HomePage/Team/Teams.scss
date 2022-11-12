@@ -5,8 +5,13 @@
   // margin: 5rem 0;
   background: url("../../../assets/team-bg.png") no-repeat center center/cover;
   // margin: 4rem 0;
+  @media screen and (max-width: $md) {
+    flex-direction: column-reverse;
+    gap: 1rem;
+       
+     }
 
-  .right {
+  &-right {
     flex: 1;
     flex: 1;
     display: flex;
@@ -14,6 +19,15 @@
     justify-content: center;
     padding: 10rem 0;
     margin-left: 4rem;
+    @media screen and (max-width: $md) {
+      padding: 0;
+       margin: 0;  
+       padding-left: 1rem;
+       padding-top: 5rem;
+       h1{
+        padding: 0;
+       }
+       }
     h1 {
       font-family: $body-font;
       font-size: 3rem;
@@ -37,12 +51,16 @@
       // padding: 0;
     }
   }
-  .left {
+  &-left {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 11rem 0;
+    @media screen and (max-width: $md) {
+      padding: 0;
+         
+       }
 
     .cards {
       display: flex;

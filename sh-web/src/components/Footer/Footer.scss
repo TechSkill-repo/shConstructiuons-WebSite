@@ -79,6 +79,14 @@
     margin-bottom: 3rem;
     border-top: 2px solid #333b40;
     padding-top: 3rem;
+    @media screen and (max-width: $md) {
+      flex-direction: column;
+      align-items: center;
+        gap: 5rem; 
+        h3{
+          font-size: 30px !important;
+        }
+       }
     .logo {
       color: #b2bdc6 !important;
       font-size: 25px;
@@ -111,6 +119,12 @@
       display: flex;
       flex-direction: column;
       gap: 3rem;
+      @media screen and (max-width: $md) {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+           
+         }
     }
     .content {
       display: flex;
@@ -119,6 +133,14 @@
       font-family: $rubik-font;
       font-size: 16px;
       letter-spacing: 1.2px !important;
+      @media screen and (max-width: $md) {
+        flex-direction: column;
+        align-items: center;
+        p{
+          text-align: center;
+        }
+           
+         }
     }
     .links {
         a{
@@ -164,5 +186,14 @@
     line-height: 36px;
     border-top: 2px solid #535f67;
     padding-top: 2rem;
+  }
+  .footer-logo{
+    @media screen and (max-width: $md) {
+      svg{
+        left: 0 !important;
+
+      }
+         
+       }
   }
 }

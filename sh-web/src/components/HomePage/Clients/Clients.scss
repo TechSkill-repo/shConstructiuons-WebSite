@@ -5,14 +5,31 @@
     display: flex;
     color: white !important;
     height: 700px;
+    @media screen and (max-width: $md) {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+           
+         }
 
-    .left{
+    &-left{
            flex: 1;
            padding-left: 5rem;
            padding-top: 7rem;
            gap: 1.5rem;
            display: flex;
            flex-direction: column;
+           @media screen and (max-width: $md) {
+            
+            padding-left:1rem;
+            padding-top: 3rem;
+
+            h1{
+                font-size: 47px;
+                padding: 0;
+            }
+               
+             }
            img{
             height: 80px;
             width: 100px;
@@ -37,12 +54,16 @@
            }
 
     }
-    .right{
+    &-right{
         flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
         // padding-top: 7rem;
+        @media screen and (max-width: $md) {
+           padding-bottom: 4rem;
+               
+             }
         .card{
             padding: 45px;
             background: #fff url('https://preview.codeless.co/bygge/default/wp-content/plugins/cowidgets-bygge/assets/images/quote-image.png') no-repeat right -60px;
@@ -50,6 +71,9 @@
             color: black;
             height: 380px;
             width: 450px;
+            @media screen and (max-width: $md) {
+               height: 440px;
+                 }
          &::before{
             content: "";
             width: 0;

@@ -4,7 +4,7 @@ import Manager from "../../../assets/manager.png";
 function Team() {
   return (
     <div className="team p-2">
-      <div className="left">
+      <div className="team-left">
         <div className="cards">
           <div className="card">
             <div className="img">
@@ -30,7 +30,7 @@ function Team() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card hide">
             <div className="img">
               <img
                 src="https://preview.codeless.co/bygge/default/wp-content/uploads/2021/06/staff2.png"
@@ -58,7 +58,7 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="right">
+      <div className="team-right">
         <p className="clip">OUR TEAM</p>
         <h1 className="team-heading">Meet Our Staff</h1>
         <p className="team-para">

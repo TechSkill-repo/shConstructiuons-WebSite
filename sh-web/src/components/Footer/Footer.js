@@ -4,22 +4,22 @@ import "./Footer.scss";
 function Footer() {
   return (
     <div className="footer">
-      <div className="head">
+      <div className="head hide">
         <div className="left">
           <h2>Newsletter Signup</h2>
-          <p className="clip">
+          <p className="clip hide">
             Get notified about updates and be the first to get early access to
             new episodes.
           </p>
         </div>
-        <div className="right">
+        <div className="right hide">
           <input type="text" placeholder="Your email address" />
           <button>Subscribe</button>
         </div>
       </div>
       <div className="wrapper">
         <div className="body">
-          <div className="logo cursive">
+          <div className="logo cursive footer-logo">
             <svg
               width="397"
               height="45"
