@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import CSR from "./pages/CSR/CSR";
+import Sustainability from "./pages/Sustainability/Sustainability";
 import {
   BrowserRouter,
   Routes,
@@ -25,6 +26,7 @@ function App() {
       
       <Route exact path="services" element={<Services />}/>
       <Route exact path="csr" element={<CSR />}/>
+      <Route exact path="sustainability" element={<Sustainability />}/>
       <Route exact path="contact" element={<Contact />}/>
       {/* <Route exact path="/check" element={<Sliders />}/> */}
        
