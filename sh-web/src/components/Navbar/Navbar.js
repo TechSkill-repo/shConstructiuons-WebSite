@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 
-function Navbar() {
+function Navbar({dark}) {
 
   const [showNav, setShowNav] = useState(false);
 
@@ -21,6 +21,19 @@ function Navbar() {
 
   
   }
+
+  useEffect(() => {
+      
+    if(dark)
+    {
+      document.querySelector(".navbar").classList.add("dark-nav")
+    }
+    else
+    {
+      document.querySelector(".navbar").classList.remove("dark-nav")
+    }
+
+  }, []);
   return (
     <div className="navbar p-2">
       <div className="logo cursive">

@@ -1,3 +1,64 @@
+const sustain_posts= [
+  {
+
+    title:"Stakeholder engagement",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  },
+  {
+
+    title:"Sustainability a way of life",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  },
+  {
+
+    title:"Sustainable Development",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  },
+  {
+
+    title:"Health and Safety",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  } ,
+  {
+
+    title:"Environment and Energy",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  }  ,
+  {
+
+    title:"Sustainability reports",
+    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    
+    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading:"perferendis ipsum iure eaque voluptatibus",
+    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+
+  } 
+]
 
 const sustain_cards =[
   {
@@ -72,5 +133,6 @@ const achieve_cards = [
 
 module.exports = {
   achieve_cards,
-  sustain_cards
+  sustain_cards,
+  sustain_posts
 };

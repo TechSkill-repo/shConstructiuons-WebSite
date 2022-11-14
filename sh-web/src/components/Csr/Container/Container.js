@@ -82,22 +82,26 @@ function Container() {
               src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/01/socialservice3.jpg"
               alt=""
             />
-             <div>
-
-<p className="date">{new Date().toLocaleDateString()}</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos consequatur ratione iste asperiores consectetur?</p>
-</div>
+            <div>
+              <p className="date">{new Date().toLocaleDateString()}</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                dignissimos consequatur ratione iste asperiores consectetur?
+              </p>
+            </div>
           </div>
           <div className="csr-image">
             <img
               src="https://socialwork.buffalo.edu/content/socialwork/home/admissions/is-social-work-right-career-for-me/list-of-essential-skills-in-social-work/_jcr_content/par/image.img.680.auto.png/1529780679625.png"
               alt=""
             />
-             <div>
-
-<p className="date">{new Date().toLocaleDateString()}</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos consequatur ratione iste asperiores consectetur?</p>
-</div>
+            <div>
+              <p className="date">{new Date().toLocaleDateString()}</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                dignissimos consequatur ratione iste asperiores consectetur?
+              </p>
+            </div>
           </div>
         </div>
 

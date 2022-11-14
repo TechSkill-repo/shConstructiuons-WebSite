@@ -1,6 +1,18 @@
 import "./Container.scss";
 import { sustain_cards } from "../../data";
+import { PostContext } from "../../../context/PostContext";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { sustain_posts } from "../../data";
 function Container() {
+
+  const {dispatch} =useContext(PostContext)
+const showPost = (title)=>
+{
+  const post = sustain_posts.find((post)=>post.title===title)
+  dispatch({type:"SET_POST", payload:{post}})
+}
+
   return (
     <div className="sustain-container">
       <div className="sustain-container-heading">
@@ -17,7 +29,7 @@ function Container() {
 
             <h4>{card.title}</h4>
             <p>{card.desc}</p>
-            <a className="clip link">
+            <Link className="clip link" onClick={()=>showPost(card.title)} to="/sustainability/post">
               READ MORE{" "}
               <svg
                 width="9"
@@ -31,7 +43,7 @@ function Container() {
                   fill="#CA3D00"
                   />
               </svg>
-            </a>
+            </Link>
                   </div>
           </div>
         ))}
@@ -45,7 +57,7 @@ function Container() {
 
             <h4>{card.title}</h4>
             <p>{card.desc}</p>
-            <a className="clip link">
+            <Link className="clip link" onClick={()=>showPost(card.title)} to="/sustainability/post" >
               READ MORE{" "}
               <svg
                 width="9"
@@ -59,7 +71,7 @@ function Container() {
                   fill="#CA3D00"
                   />
               </svg>
-            </a>
+            </Link>
                   </div>
           </div>
         ))}
