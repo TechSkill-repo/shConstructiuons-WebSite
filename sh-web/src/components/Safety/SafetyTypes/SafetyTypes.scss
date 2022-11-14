@@ -1,12 +1,12 @@
 @import '../../config';
 
 
-.projects{
+.safety-types{
     display: flex;
     background: url('../../../assets/about-bg.png') no-repeat;
     background-position: top;
     background-size: cover;
-    padding: 5rem 4rem;
+    padding: 8rem 4rem;
 
     .left
     {
@@ -35,9 +35,7 @@
                     
         .project-card
         {
-            p{
-                margin-bottom: 1px !important;
-            }
+           border-bottom: 1px solid #80808043;
            margin-bottom: 3rem;
         }
     }

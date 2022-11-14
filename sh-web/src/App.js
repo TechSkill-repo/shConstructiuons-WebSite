@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Posts from "./components/Posts/Posts";
 import { useContext } from "react";
 import { PostContext } from "./context/PostContext";
+import Safety from "./pages/Safety/Safety";
 
 function App() {
   const { data } = useContext(PostContext);
@@ -33,7 +34,7 @@ function App() {
                 <Posts/>
               }
             />
-
+             <Route exact path="safety" element={<Safety />} />
             <Route exact path="contact" element={<Contact />} />
             {/* <Route exact path="/check" element={<Sliders />}/> */}
           </Route>

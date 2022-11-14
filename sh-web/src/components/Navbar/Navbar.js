@@ -64,8 +64,12 @@ function Navbar({dark}) {
           <Link to="/csr">CSR</Link>
         </li>
         <li className="underline">
+          <Link to="/safety">Safety</Link>
+        </li>
+        <li className="underline">
           <Link to="/sustainability">Sustainability</Link>
         </li>
+
         <li className="underline">
           <Link to="/contact">Contact Us</Link>
         </li>

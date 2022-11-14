@@ -1,0 +1,98 @@
+@import '../../config';
+
+.safety-works{
+    background: url('../../../assets/testimonial-bg.png') no-repeat center center/cover;
+    display: flex;
+    color: white !important;
+    height: 700px;
+    @media screen and (max-width: $md) {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+           
+         }
+
+    &-left{
+           flex: 1;
+           padding-left: 10rem;
+           padding-top: 8rem;
+           gap: 1.5rem;
+           display: flex;
+           flex-direction: column;
+           @media screen and (max-width: $md) {
+            
+            padding-left:1rem;
+            padding-top: 3rem;
+
+            h1{
+                font-size: 47px;
+                padding: 0;
+            }
+               
+             }
+          
+           .safety-works-para
+           {
+            font-family: $rubik-font;
+            font-size: 16px;
+            line-height: 28px;
+            width: 90%;
+           }
+           button{
+            width: 170px;
+            background-color: transparent;
+            margin-left: 0;
+            color: white;
+            &:hover{
+                color: #fff;
+                background-color: $secondary-color;
+                border-color: transparent;
+            }
+           }
+
+    }
+    &-right{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // padding-top: 7rem;
+        @media screen and (max-width: $md) {
+           padding-bottom: 4rem;
+               
+             }
+
+             &-card{
+                height: 480px;
+                width: 500px;
+                position: relative;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                }
+                &-content{
+                   position: absolute;
+                   bottom: 0;
+                   background-color: #1f282ee0;
+                   height: 130px;
+                   width: 100%;
+                   padding-left: 2rem;
+                  display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                   h3{
+                    line-height: 28px;
+                    text-transform: none;
+                    font-weight: 700;
+                    font-size: 24px;
+                    font-family: $body-font;
+                   }
+                }
+             }
+        
+
+    }
+}

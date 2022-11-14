@@ -131,8 +131,51 @@ const achieve_cards = [
   },
 ];
 
+
+const safety_cards = [
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+  {
+    title:"Safety Expand",
+    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
+
+    
+  },
+ 
+
+]
+
 module.exports = {
   achieve_cards,
   sustain_cards,
-  sustain_posts
+  sustain_posts,
+  safety_cards
 };
