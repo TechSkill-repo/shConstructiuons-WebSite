@@ -42,11 +42,11 @@
         flex-direction: column;
         cursor: pointer;
         &:hover a {
-          color: #0040e0;
+          color: gray;
           transition: all 0.2s ease-in-out;
         }
         &:hover path {
-          fill: #0040e0;
+          fill: gray;
           transition: all 0.2s ease-in-out;
         }
       }

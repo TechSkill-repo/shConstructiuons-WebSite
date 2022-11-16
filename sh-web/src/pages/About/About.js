@@ -5,6 +5,8 @@ import Projects from "../../components/About/Projects/Projects";
 import Footer from "../../components/Footer/Footer";
 import Staff from "../../components/About/Staff/Staff";
 import Timeline from '../../components/About/Timeline/Timeline';
+import Companies from "../../components/About/Companies/Companies";
+
 
 function About() {
   return (
@@ -15,6 +17,7 @@ function About() {
     <Projects></Projects>
     <Timeline></Timeline>
     <Staff></Staff>
+    <Companies></Companies>
     <Footer></Footer>
     
     </>
