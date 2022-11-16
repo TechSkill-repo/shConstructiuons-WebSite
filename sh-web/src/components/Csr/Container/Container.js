@@ -37,7 +37,7 @@ function Container() {
         <div className="csr-row">
           <div className="csr-image">
             <img
-              src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/01/socialservice3.jpg"
+              src="https://s.observers.france24.com/media/display/1d31b76e-f734-11ea-bdb6-005056a9aa4d/w:1280/p:4x3/trash%20bag.JPG"
               alt=""
             />
             <div>
@@ -50,7 +50,7 @@ function Container() {
           </div>
           <div className="csr-image">
             <img
-              src="https://images.shiksha.com/mediadata/images/articles/1624866875phpZq9RM9.jpeg"
+              src="https://www.psuconnect.in/sdsdsd/bpcl_tree_plantation.jpg"
               alt=""
             />
             <div>
@@ -66,7 +66,7 @@ function Container() {
         <div className="csr-row csr-row-more">
           <div className="csr-image">
             <img
-              src="http://im.rediff.com/getahead/2013/jul/19socialwork4.jpg"
+              src="https://assets.thehansindia.com/h-upload/2021/06/03/1080074-gangula.webp"
               alt=""
             />
             <div>
@@ -79,7 +79,7 @@ function Container() {
           </div>
           <div className="csr-image">
             <img
-              src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/01/socialservice3.jpg"
+              src="https://media.greenmatters.com/brand-img/YwKiQ2tfV/0x0/trashtag-clean-up-litter-1552318521531.jpg"
               alt=""
             />
             <div>
@@ -92,7 +92,7 @@ function Container() {
           </div>
           <div className="csr-image">
             <img
-              src="https://socialwork.buffalo.edu/content/socialwork/home/admissions/is-social-work-right-career-for-me/list-of-essential-skills-in-social-work/_jcr_content/par/image.img.680.auto.png/1529780679625.png"
+              src="https://assets.telegraphindia.com/telegraph/2020/Dec/1606938238_03dhanbad2_5c.jpg"
               alt=""
             />
             <div>
@@ -108,7 +108,7 @@ function Container() {
         <div className="csr-row">
           <div className="csr-image">
             <img
-              src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/01/socialservice3.jpg"
+              src="https://chennai.ashanet.org/wp-content/uploads/sites/38/2019/11/34-DSCN4526.jpg"
               alt=""
             />
             <div>

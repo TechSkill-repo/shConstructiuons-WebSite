@@ -1,108 +1,103 @@
-const sustain_posts= [
+const sustain_posts = [
   {
-
-    title:"Stakeholder engagement",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
-
+    title: "Stakeholder engagement",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
   },
   {
+    title: "Sustainability a way of life",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303",
 
-    title:"Sustainability a way of life",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
-
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
   },
   {
+    title: "Sustainable Development",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
 
-    title:"Sustainable Development",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
-
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
   },
   {
+    title: "Health and Safety",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
 
-    title:"Health and Safety",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
-
-  } ,
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
+  },
   {
+    title: "Environment and Energy",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
 
-    title:"Environment and Energy",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
-
-  }  ,
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
+  },
   {
+    title: "Sustainability reports",
+    imgUrl:
+      "https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
 
-    title:"Sustainability reports",
-    imgUrl:"https://preview.codeless.co/bygge/default/wp-content/uploads/2022/01/shutterstock_1006180303.jpg",
-    
-    para1:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
-    subHeading:"perferendis ipsum iure eaque voluptatibus",
-    para2:"at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?"
+    para1:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam molestias nobis saepe, nam exercitationem suscipit vel, voluptate iure quo, corrupti atque a animi esse ullam quis? Molestias ipsum nemo iusto quae, suscipit maiores doloribus! Fugit provident ullam nam repellat sit dicta qui eaque asperiores! Consequatur, earum veritatis minima at laborum illo ipsa temporibus. Explicabo aut, quas exercitationem molestiae, necessitatibus, tempora ut inventore odio laboriosam maxime a",
+    subHeading: "perferendis ipsum iure eaque voluptatibus",
+    para2:
+      "at quidem accusantium mollitia sed impedit dolore! Asperiores consequuntur ullam officiis, temporibus perferendis ipsum iure eaque voluptatibus alias nulla quia ratione iusto! Quae dolores dolorum et, natus quas voluptatem voluptatibus quia laborum tempore veniam quos odit ea. Perferendis ipsa sunt molestias et doloremque. Impedit dolorum aspernatur non veniam! Quae?",
+  },
+];
 
-  } 
-]
-
-const sustain_cards =[
+const sustain_cards = [
   {
-    url: "https://img.freepik.com/free-vector/red-dart-arrow-hitting-target-center-dartboard_91128-1576.jpg?w=740&t=st=1668364558~exp=1668365158~hmac=19493ca16891af59fcdbdf03c4265d770e4a4ee1915019b08b7ba354c387ae21",
-    title:"Sustainability a way of life",
-    desc:"Setting new benchmarks in sustainable construction in India",
-    
-   },
-   {
-    url:"https://img.freepik.com/free-vector/social-network-connections_1010-422.jpg?w=740&t=st=1668365363~exp=1668365963~hmac=f7c44c46d20785b6acedbefb17b941d9b74948846b97e2b7b1f101d6aa7206fc",
-    title:"Stakeholder engagement",
-    desc:"Dedicated and varied engagement aimed at creating value for our stakeholders",
-    
-   }
-   ,
-   {
-    url:"https://img.freepik.com/free-photo/plant-growing-bulb_1232-194.jpg?w=740&t=st=1668365592~exp=1668366192~hmac=c49ec634ff9add45f6321eaec025beee741f431e8572f5e705e51d874eed8263",
-    title:"Sustainable Development",
-    desc:"Providing strategic direction to our long-term sustainability vision",
-    
-   }
-   ,
-   {
-    url:"https://st.depositphotos.com/1561359/4961/v/950/depositphotos_49616783-stock-illustration-3d-illustration-of-safety-first.jpg",
-    title:"Health and Safety",
-    desc:"Committed to achieving Zero Harm at the workplace",
-    
-   }
-   ,
-   {
-    url:"https://img.freepik.com/free-vector/sketchy-earth-earth-day_23-2147506730.jpg?w=740&t=st=1668366646~exp=1668367246~hmac=23b439126c16ace2449aae136fda5c13096bc89e9fba103bed705a90da6b78df",
-    title:"Environment and Energy",
-    desc:"Minimise ecological impact of operations to build a better today and tomorrow.",
-    
-   }
-   ,
-   {
-    url:"https://png.pngtree.com/png-vector/20190513/ourmid/pngtree-progressreportstatisticspatientrecovery-white-line-icon-png-image_1037941.jpg",
-    title:"Sustainability reports",
-    desc:"Ambuja is transparent about its commitment to sustainability",
-    
-   }
-]
-
+    url: "https://3.bp.blogspot.com/-QGKDfiyX0Co/WTuUwa47FRI/AAAAAAAAAKI/swHcglS4A7E4TwwY60zDQK2uI1c560yQQCEw/s1600/Sigma-visual-sml.jpg",
+    title: "Sustainability a way of life",
+    desc: "Setting new benchmarks in sustainable construction in India",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D12AQFpa0cExX5hSg/article-cover_image-shrink_600_2000/0/1624472743486?e=2147483647&v=beta&t=oXnPhHJ4fDycEr24B7RY4FjvlExTxTjFsGiM8qBidbg",
+    title: "Stakeholder engagement",
+    desc: "Dedicated and varied engagement aimed at creating value for our stakeholders",
+  },
+  {
+    url: "https://www.iynf.org/wp-content/uploads/2018/08/sus.png",
+    title: "Sustainable Development",
+    desc: "Providing strategic direction to our long-term sustainability vision",
+  },
+  {
+    url: "https://www.themightyearth.com/wp-content/uploads/2019/12/EHS.png",
+    title: "Health and Safety",
+    desc: "Committed to achieving Zero Harm at the workplace",
+  },
+  {
+    url: "https://www.borgenmagazine.com/wp-content/uploads/2014/03/HiRes_opt.jpg",
+    title: "Environment and Energy",
+    desc: "Minimise ecological impact of operations to build a better today and tomorrow.",
+  },
+  {
+    url: "https://www.arabbank.jo/images/default-source/default-album/website-banner-eng810479ae60c367ec9513ff5c007b40dd.jpg?sfvrsn=e8c71e9f_0",
+    title: "Sustainability reports",
+    desc: "Ambuja is transparent about its commitment to sustainability",
+  },
+];
 
 const achieve_cards = [
   {
@@ -125,57 +120,42 @@ const achieve_cards = [
   },
   {
     url: "https://www.tatasteel.com/investors/annual-report-2011-12/html/templates/images/principle6_2.jpg",
-    title: "Erection of Drinking Water",
+    title: "Erection of  Water",
     subText1: "TSL",
     subText2: "Zone A-B",
   },
 ];
 
-
 const safety_cards = [
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
   {
-    title:"Safety Expand",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!"
-
-    
+    title: "Safety Expand",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam quam accusantium quod. Exercitationem quod porro pariatur eius, voluptatum unde saepe ipsam placeat aliquam. Debitis quis ex consequatur placeat voluptatem nisi ducimus illo. Temporibus alias ab officia, eveniet, dolore suscipit natus hic, ullam sapiente dolor sint dicta perspiciatis voluptates id. Consequatur est dicta similique aspernatur, ullam quidem magni animi itaque error, iusto sunt esse repellendus, nobis qui. Aspernatur deleniti sit natus, doloribus ad perferendis maiores, inventore corrupti distinctio in facere!",
   },
- 
-
-]
+];
 
 module.exports = {
   achieve_cards,
   sustain_cards,
   sustain_posts,
-  safety_cards
+  safety_cards,
 };
