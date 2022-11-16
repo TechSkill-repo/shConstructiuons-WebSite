@@ -122,6 +122,13 @@
          z-index: 3;
          gap: 1rem;
          width: 280px;
+         @media screen and (max-width: $md) {
+        width: 80%;
+        background-color: lighten($dark-nav-color, 7%);
+        
+          
+        }
+
          a{
           border-bottom: 1px solid #4d4d4d9e;
          }
