@@ -63,6 +63,15 @@ function Navbar({dark}) {
         <li className="underline">
           <Link to="/csr">CSR</Link>
         </li>
+        <li className="underline nav-events">
+          <div>Events <i class="fas fa-caret-down"></i></div>
+          <div className="event-dropdown">
+          <Link to="/events">Monthly Events</Link>
+          <Link to="/events">Quarterly Events</Link>
+          <Link to="/events">Half-Yearly Events</Link>
+          <Link to="/events">Yearly Events</Link>
+          </div>
+        </li>
         <li className="underline">
           <Link to="/safety">Safety</Link>
         </li>
