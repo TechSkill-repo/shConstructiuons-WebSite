@@ -2,10 +2,12 @@
 
 .navbar {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   align-items: center;
   color: white;
   position: relative;
+  justify-content: flex-start;
+  align-items: baseline;
   @media screen and (max-width: $md) {
        justify-content: space-between;
   }

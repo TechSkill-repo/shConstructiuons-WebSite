@@ -11,6 +11,7 @@ import Posts from "./components/Posts/Posts";
 import { useContext } from "react";
 import { PostContext } from "./context/PostContext";
 import Safety from "./pages/Safety/Safety";
+import Events from "./pages/Events/Events";
 
 function App() {
   const { data } = useContext(PostContext);
@@ -24,7 +25,15 @@ function App() {
 
             <Route exact path="services" element={<Services />} />
             <Route exact path="csr" element={<CSR />} />
+            <Route exact path="events">
 
+
+            <Route exact path="monthly" element={<Events type="monthly" />} />
+            <Route exact path="quarterly" element={<Events type="quarterly" />} />
+            <Route exact path="half-yearly" element={<Events type="half-yearly" />} />
+            <Route exact path="yearly" element={<Events type="yearly" />} />
+
+            </Route>
             <Route exact path="sustainability" element={<Sustainability />} />
 
             <Route
