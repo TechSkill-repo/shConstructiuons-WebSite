@@ -45,8 +45,8 @@
         gap: 3rem;
         
         &-heading{
-            p{
-               margin: 0 !important;
+            .event-clip{
+             margin: 0 !important;
                 font-size: 18px;
                 color: $secondary-color;
                 padding-left: 6px;
@@ -58,14 +58,7 @@
         .events-main-contents{
             display: flex;
             gap: 2rem;
-            h3{
-                font-size: 26px;
-                font-weight: 500;
-                font-family: $body-font;
-                color: $secondary-color;
-                margin: 27px 0 15px 0;
             
-            }
             li{
                 list-style:square;
                 font-family: $rubik-font;
@@ -83,7 +76,7 @@
                     margin: 27px 0 15px 0;
                 }
                 img{
-                    width: 100%;;
+                    width: 100%;
                 }
                 .attendees{
                     li{
@@ -95,6 +88,55 @@
                 flex: 1;
 
             }
+        }
+    }
+    h3{
+        font-size: 28px;
+        font-weight: 500;
+        font-family: $body-font;
+        color: $secondary-color;
+        margin: 27px 0 15px 0;
+    
+    }
+    .para{
+        color: black !important; 
+        font-family: $body-font;
+        margin-top: 1rem !important;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container2{
+        img{
+            height: 400px;
+            
+            width: 500px;
+        }
+    }
+    .qa{
+        display: flex;
+        flex-direction: column;
+          border-bottom: 2px solid rgba(185, 185, 185, 0.749);
+          justify-content: center;
+          align-items: center;
+          p{
+            font-weight: 600;
+          }
+    }
+    .reward{
+        &-heading{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            h3{
+                margin: 0 !important;
+            }
+        }
+        align-items: center;
+        gap: 1rem !important;
+        img{
+            // height: 500px;
+            width: 500px;
         }
     }
     }
