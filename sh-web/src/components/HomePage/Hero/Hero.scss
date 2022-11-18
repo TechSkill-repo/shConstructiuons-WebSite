@@ -3,7 +3,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: fit-content;
   position: relative;
   gap: 5rem;
 
@@ -14,16 +14,11 @@
     transparent
   );
   @media screen and (max-width: $md) {
-    
     height: 63vh;
-    background-image:none;
+    background-image: none;
     gap: 3rem;
-   
-  
-}
+  }
 
- 
-   
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -42,24 +37,18 @@
       line-height: 80px;
       font-weight: 600;
       z-index: 1;
-      margin-bottom: 0;
+      margin-bottom: 4rem;
       margin-top: 4rem;
       text-align: left;
       @media screen and (max-width: $md) {
-    
-       
-          line-height: 50px !important;
-          padding: 0 1rem;
-          font-size: 33px !important;
-          text-align: left;
-          padding: 0 2rem;
-          margin-top: 0;
-          width: 100%;
-         
-        
+        line-height: 50px !important;
+        padding: 0 1rem;
+        font-size: 33px !important;
+        text-align: left;
+        padding: 0 2rem;
+        margin-top: 0;
+        width: 100%;
       }
-
-
     }
     .hero-bottom {
       display: flex;
@@ -72,8 +61,6 @@
         width: 100%;
         margin: 0;
         display: none;
-      
-        
       }
       &-left {
         flex: 2;
@@ -133,6 +120,5 @@
     position: absolute;
     top: 0;
     z-index: -1;
-   
   }
 }
