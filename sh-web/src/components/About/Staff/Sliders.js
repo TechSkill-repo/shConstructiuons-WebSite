@@ -3,12 +3,26 @@ import Slider from "react-slick";
 import './Staff.scss';
 
 export default class Sliders extends Component {
+
+  
+  state = {
+    screen:1
+  }
+   
+ componentDidMount() {
+ 
+   this.setState({
+    screen: window.matchMedia('(max-width: 600px)').matches? 1 : 4 
+
+   })
+   
+}
   render() {
     const settings = {
       dots: true,
      
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow:this.state.screen ,
       slidesToScroll: 3,
       autoplay: true,
       speed: 1000,

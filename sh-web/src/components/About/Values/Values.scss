@@ -5,6 +5,14 @@
     background: url('../../../assets/about-page-3rd.webp') no-repeat center center/cover;
     padding: 7rem 4rem;
     color: white !important;
+
+    @media screen and  (max-width: $md){
+        
+       padding: 4rem 1rem;
+
+          
+       
+       }
     .values-container{
 
         display: flex;
@@ -15,14 +23,38 @@
             font-size: 57px;
         line-height: 72px;
         width: 60%;
+        @media screen and  (max-width: $md){
+        
+           width: 100%;
+           padding: 0;
+
+             
+          
+          }
         }
         &-row{
             display: flex;
             margin-top: 4rem;
+
+            @media screen and  (max-width: $md){
+        
+                gap: 2rem;
+                flex-direction: column;
+         
+                   
+                
+                }
             .item{
                 flex: 1;
                 display: flex;
                 gap: 2rem;
+                @media screen and  (max-width: $md){
+        
+                   gap: 1rem;
+             
+                       
+                    
+                    }
                 .symbol{
                     font-size: 40px;
                     color: $secondary-color;

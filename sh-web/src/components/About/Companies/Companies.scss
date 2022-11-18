@@ -5,6 +5,15 @@
     background-position: top;
     background-size: cover;
     padding: 5rem 4rem;
+    @media screen and  (max-width: $md){
+        
+        flex-direction: column;
+        padding: 3rem 1rem;
+        h1{
+            padding: 0;
+        }
+          
+          }
 
     &-left
     {
@@ -47,6 +56,11 @@
                     height: 200px;
                     width: 200px;
                     object-fit: contain;
+                    @media screen and  (max-width: $md){
+        
+                        width: 160px;
+                          
+                          }
                 }
                }
         }

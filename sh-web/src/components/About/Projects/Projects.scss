@@ -8,6 +8,19 @@
     background-size: cover;
     padding: 5rem 4rem;
 
+    @media screen and  (max-width: $md){
+        
+        padding: 3rem 1rem;
+        flex-direction: column;
+        gap: 2rem;
+        h1{
+            padding: 0 !important;
+        }
+ 
+           
+        
+        }
+
     .left
     {
         flex: 1;
