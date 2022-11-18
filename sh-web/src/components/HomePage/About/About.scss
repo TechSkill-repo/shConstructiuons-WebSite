@@ -5,44 +5,35 @@
   display: flex;
   padding: 0 3rem;
   padding-bottom: 4rem;
+  border: none;
   @media screen and (max-width: $md) {
     padding: 0 1rem;
     padding-bottom: 4rem;
     flex-direction: column-reverse;
-  
-    
   }
- 
-  
 
   .about-left {
     flex: 1;
     // padding: 5rem 0;
     @media screen and (max-width: $md) {
-      
-        padding-bottom: 4rem;
-    
-      
+      padding-bottom: 4rem;
     }
 
-   
     .row {
       // height: 100%;
       // width: 100%;
       display: flex;
-      // 
+      //
       gap: 2rem;
       margin-bottom: 2rem;
       position: relative;
       top: 5rem;
 
-       @media screen and (max-width: $md) {
-         flex-direction: column;
-       align-items: center;
-       // padding-bottom: 4rem;
-      
-        
-       }
+      @media screen and (max-width: $md) {
+        flex-direction: column;
+        align-items: center;
+        // padding-bottom: 4rem;
+      }
 
       .card {
         background-color: #ffff;
@@ -63,11 +54,8 @@
           width: 100%;
           // padding: 39px 27px;
           height: 400px;
-        
-          
         }
-          
-        
+
         &:hover {
           background-color: lighten($secondary-color, 8%);
           color: white !important;
@@ -84,8 +72,7 @@
           @media screen and (max-width: $md) {
             height: 80px;
             width: 80px;
-               
-             }
+          }
         }
         h3 {
           font-family: $body-font;
@@ -95,8 +82,7 @@
           line-height: 22px;
           @media screen and (max-width: $md) {
             font-size: 23px;
-               
-             }
+          }
         }
 
         p {
@@ -120,58 +106,49 @@
         }
       }
     }
-    }
   }
-  .about-right {
-    flex: 1;
-    padding: 3rem 1rem;
-    padding-top: 5rem;
-     @media screen and (max-width: $md) {
+}
+.about-right {
+  flex: 1;
+  padding: 3rem 1rem;
+  padding-top: 5rem;
+  @media screen and (max-width: $md) {
     //   padding: 0 1rem;
-      padding-top: 5rem;
-      padding-bottom: 0;
+    padding-top: 5rem;
+    padding-bottom: 0;
 
     //   // text-align: center;
-    
-      
-    
-      
-     }
-    p {
-      padding-left: 3rem;
-      @media screen and (max-width: $md) {
-       
-        padding-left: 0;
-      
-        
-      }
-    }
-
-    h1 {
-      font-family: $body-font;
-      font-size: 45px;
-      line-height: 70px;
-      padding-left: 3rem;
-      width: 100%;
-      @media screen and (max-width: $md) {
-        font-size: 30px !important;
-        line-height: 50px;
-        padding-left: 0;
-      
-        
-      }
-    }
-    .about-para {
-      margin: 2rem 0;
-      font-family: $rubik-font;
-
-      text-align: left;
-      color: #657078;
-
-      font-size: 16px;
-      line-height: 28px;
+  }
+  p {
+    padding-left: 3rem;
+    @media screen and (max-width: $md) {
+      padding-left: 0;
     }
   }
+
+  h1 {
+    font-family: $body-font;
+    font-size: 45px;
+    line-height: 70px;
+    padding-left: 3rem;
+    width: 100%;
+    @media screen and (max-width: $md) {
+      font-size: 30px !important;
+      line-height: 50px;
+      padding-left: 0;
+    }
+  }
+  .about-para {
+    margin: 2rem 0;
+    font-family: $rubik-font;
+
+    text-align: left;
+    color: #657078;
+
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
 
 .company-profile {
   display: flex;
@@ -183,17 +160,14 @@
   min-height: 750px;
   justify-content: center;
   @media screen and (max-width: $md) {
-  //  min-height: 500px;
-   padding-top: 3rem !important;
-   padding-bottom: 3rem !important;
-    
+    //  min-height: 500px;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
 
   .clip-about {
     margin: 4rem 0;
-
   }
-  
 
   h1 {
     font-family: $body-font;
@@ -202,7 +176,6 @@
     width: 95%;
     @media screen and (max-width: $md) {
       padding: 0;
-      
     }
   }
   .company-para {
@@ -216,20 +189,15 @@
     line-height: 28px;
     width: 40%;
     @media screen and (max-width: $md) {
-     width: 80%;
+      width: 80%;
     }
-
   }
   button {
     width: 180px;
     margin-left: 0;
     // padding: 0;
     @media screen and (max-width: $md) {
-    
-    margin-bottom: 4rem;
+      margin-bottom: 4rem;
     }
-      
-   
-
   }
 }

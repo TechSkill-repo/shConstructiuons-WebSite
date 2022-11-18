@@ -148,7 +148,7 @@ function About() {
                   <path d="m31.98828 19.21777c-2.10449-.00048-5.13086-.18945-8.09473-.50537a.99985.99985 0 0 1 .2129-1.98828c2.89746.30859 5.84375.49317 7.88183.49365 2.41211-.00048 5.665-.25586 7.90625-.49414a.99976.99976 0 0 1 .21094 1.98828c-1.11133.11866-4.98242.50538-8.11719.50586z"></path>
                 </g>
               </svg>
-              <h3>Erection in the field of Steel </h3>
+              <h3>Erection in the field Steel </h3>
               <p>
                 We have wealth of experience working as main building
                 contractors
@@ -164,7 +164,7 @@ function About() {
           <p className="clip">WHAT WE OFFER</p>
           <h1 className="about-heading">
             Providing solutions for Mechanical Maintenance, Fabrication,
-            Installation, Erection in the field of Steel & Power
+            Installation, Erection in the field Steel & Power
           </h1>
           <p className="about-para">
             We are a long-established, independent building services and home
