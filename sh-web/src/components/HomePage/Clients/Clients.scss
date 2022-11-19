@@ -69,10 +69,12 @@
             background: #fff url('https://preview.codeless.co/bygge/default/wp-content/plugins/cowidgets-bygge/assets/images/quote-image.png') no-repeat right -60px;
             position: relative;
             color: black;
-            height: 380px;
-            width: 450px;
+            height: fit-content;
+            // max-height: fit-content;
+            width: calc(80% - 100px);
             @media screen and (max-width: $md) {
                height: 440px;
+               width: 90%;
                  }
          &::before{
             content: "";

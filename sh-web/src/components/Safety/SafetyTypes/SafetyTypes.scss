@@ -7,6 +7,19 @@
     background-position: top;
     background-size: cover;
     padding: 7rem 4rem;
+    @media screen and  (max-width: $md){
+        
+        padding: 3rem 1rem;
+        flex-direction: column;
+        gap: 2rem;
+        h1{
+            padding: 0 !important;
+        }
+ 
+           
+        
+        }
+
 
     .left
     {

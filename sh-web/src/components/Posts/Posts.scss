@@ -12,6 +12,12 @@
         justify-content: center;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.525) 800px -600px 300px -80px inset;
+        @media screen and  (max-width: $md) {
+        
+        width: 100vw;
+
+        
+        }
         &-heading{
             // width: 70%;
             display: flex;
@@ -24,6 +30,13 @@
                 font-size: 50px;
                 text-align: center;
                 font-weight: 800 !important;
+                @media screen and  (min-width: $lg) {
+        
+                    width: 100%;
+                    
+            
+                    
+                    }
             }
             p{
                 font-size: 15px;
@@ -46,6 +59,12 @@
         align-items: center;
         font-family: $body-font;
         margin-bottom: 4rem;
+        @media screen and  (max-width: $md) {
+        
+            width: 100vw;
+    
+            
+            }
 
         // gap: 1rem;
         &-content{
@@ -59,25 +78,53 @@
         line-height: 28px;
         text-transform: none;
         color: #657078;
+        @media screen and  (max-width: $md) {
+        
+           padding: 2rem;
+            
+            }
 
         
 
 
         }
+        
         .post-content-image{
             height: 400px;
             width: 600px;
             margin-top: 3rem;
+            @media screen and  (max-width: $md) {
+        
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                height: auto;
+        
+                
+                }
             img{
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+                @media screen and  (max-width: $md) {
+        
+                    width: calc(100% - 2rem);
+                    height: auto !important;
+            
+                    
+                    }
             }
         }
         .post-content-heading
         {
             margin-top: 3rem;
             font-size: 24px;
+            @media screen and  (max-width: $md) {
+        
+               padding: 0 2rem ;
+        
+                
+                }
         }
        
     }

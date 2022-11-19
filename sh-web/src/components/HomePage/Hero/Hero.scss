@@ -5,6 +5,8 @@
   flex-direction: column;
   height: fit-content;
   position: relative;
+  max-height: 110vh;
+
   gap: 5rem;
 
   background-image: linear-gradient(
@@ -14,9 +16,10 @@
     transparent
   );
   @media screen and (max-width: $md) {
-    height: 63vh;
+    height: 65vh;
     background-image: none;
     gap: 3rem;
+    max-height: none;
   }
 
   .hero-content {
@@ -43,12 +46,27 @@
       @media screen and (max-width: $md) {
         line-height: 50px !important;
         padding: 0 1rem;
-        font-size: 33px !important;
+        font-size: 38px !important;
         text-align: left;
         padding: 0 2rem;
         margin-top: 0;
         width: 100%;
       }
+      @media screen and (max-width: $sm) {
+       font-size: 32px !important;
+      }
+      @media screen and (min-width: $lg) {
+        
+        width: 60%;
+        font-size: 80px;
+      }
+      @media screen and (min-width: $xl) {
+        
+        width: 50%;
+
+       
+      }
+
     }
     .hero-bottom {
       display: flex;
@@ -120,5 +138,10 @@
     position: absolute;
     top: 0;
     z-index: -1;
+    @media screen and (min-width: $lg) {
+      height: auto;
+    
+      
+    }
   }
 }

@@ -22,6 +22,8 @@
     &-cards{
         display: flex;
         justify-content: center;
+        justify-content: space-evenly;
+        margin: 4rem 0;
         @media screen and  (max-width: $md){
         
           flex-direction: column;

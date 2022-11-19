@@ -28,6 +28,7 @@
       margin-bottom: 2rem;
       position: relative;
       top: 5rem;
+      justify-content: center;
 
       @media screen and (max-width: $md) {
         flex-direction: column;
@@ -54,6 +55,12 @@
           width: 100%;
           // padding: 39px 27px;
           height: 400px;
+        }
+
+        @media screen and (min-width: $lg) {
+          width: 380px;
+          // padding: 39px 27px;
+          height: 380px;
         }
 
         &:hover {
@@ -137,6 +144,10 @@
       line-height: 50px;
       padding-left: 0;
     }
+    @media screen and (min-width: $lg) {
+     width: 87%;
+     font-size: 60px !important;
+    }
   }
   .about-para {
     margin: 2rem 0;
@@ -147,6 +158,10 @@
 
     font-size: 16px;
     line-height: 28px;
+    @media screen and (min-width: $lg) {
+      width: 87%;
+      
+     }
   }
 }
 

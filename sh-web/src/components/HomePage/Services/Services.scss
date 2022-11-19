@@ -25,6 +25,9 @@
      flex-direction: column;
         
       }
+      &-card{
+        width: calc(97%/2) !important;
+      }
     &-left {
       flex: 1;
       display: flex;
@@ -76,13 +79,17 @@
   .card {
     // background-color: #ffff;
     height: 340px;
-    width: 333px;
+    width: calc(96%/4);
     display: flex;
     @media screen and (max-width: $md) {
      width: auto;
      margin-bottom: 1rem;
          
        }
+       @media screen and (min-width: $lg) {
+       height: 390px;
+            
+          }
     flex-direction: column;
     // justify-content: space-around;
     padding: 1rem 2rem;
@@ -129,6 +136,10 @@
       font-family: $body-font;
       margin-top: 2rem;
       margin-bottom: 10px;
+      @media screen and (min-width: $lg) {
+       font-size: 25px;
+             
+           }
     }
     a {
       font-size: 12px;

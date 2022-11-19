@@ -4,6 +4,12 @@
   display: flex;
   height: 500px;
   padding: 4rem;
+  @media screen and  (max-width: $md) {
+        
+   padding: 2rem;
+
+ 
+ }
   &-left {
     flex: 1;
 
@@ -19,6 +25,16 @@
       div {
         display: flex;
         gap: 13px;
+        @media screen and  (max-width: $md) {
+        
+        gap: 18px;
+        flex-direction: column;
+        input{
+         padding: 1rem;
+        }
+
+       
+       }
         input {
           flex: 1;
           height: 48px;
@@ -66,9 +82,17 @@
       }
     }
   }
-
+  position: relative;
   &-right {
+
     flex: 1;
+    @media screen and  (max-width: $md) {
+        
+      flex: 0;
+   
+    
+    }
+   
     img {
       height: 100%;
       width: 100%;
@@ -77,4 +101,25 @@
       filter: invert(black, 50%);
     }
   }
+  img {
+    @media screen and  (max-width: $md) {
+        
+    
+
+    
+    
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    // opacity: 0.7;
+    filter: invert(black, 50%);
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: -2;
+    opacity: 0.2;
+
+    }
+  }
+  
 }

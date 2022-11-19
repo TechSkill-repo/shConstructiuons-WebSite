@@ -8,7 +8,7 @@ function Footer() {
         <div className="left">
           <h2>Newsletter Signup</h2>
           <p className="clip hide">
-            Get notified about updates and be the first to get early access to
+            Get notified about updates <br /> Be the first to get early access to
             new episodes.
           </p>
         </div>

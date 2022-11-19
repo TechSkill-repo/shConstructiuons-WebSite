@@ -37,7 +37,7 @@ function Services() {
           </button>
         </div>
         <div className="services-top-right">
-          <div className="card">
+          <div className="card services-top-card">
             <p className="clip index">01.</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ function Services() {
               </svg>
             </a>
           </div>
-          <div className="card">
+          <div className="card services-top-card">
             <p className="clip index">02.</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

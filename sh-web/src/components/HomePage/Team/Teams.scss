@@ -65,6 +65,8 @@
     .cards {
       display: flex;
       gap: 2rem;
+      width: 100%;
+      justify-content: center;
       .card {
         padding: 40px;
         background: #fff;
@@ -74,6 +76,11 @@
         flex-direction: column;
         text-align: center;
         position: relative;
+        @media screen and (min-width: $lg) {
+          width: calc(80%/2);
+          padding: 80px 40px;
+               
+             }
         &::after {
           content: "";
           width: 15px;

@@ -11,8 +11,10 @@ $rubik-font: "Rubik", sans-serif;
 
 $h3-font-size: 2.6rem;
 
-$sm: 576px;
+$sm: 370px;
 $md: 768px;
+$lg:1660px;
+$xl: 2000px;
 
 $button-size: 23px;
 $button-color: #000;
@@ -51,7 +53,18 @@ h3{
   letter-spacing: 2.3px;
   
   margin-bottom: 1rem !important;
+
+  @media screen and (min-width: $lg) {
+   font-size: 15px !important;
+      }
  
+}
+p{
+  @media screen and (min-width: $lg) {
+    font-size: 20px !important;
+    letter-spacing: 0.04em !important;
+    line-height: 32px !important;
+      }
 }
 
 .homepage-btn{
@@ -119,9 +132,9 @@ h1 {
   @media screen and (max-width: $md) {
     
        
-    line-height: 50px !important;
+  line-height: 60px !important;
     padding: 0 1rem;
-    font-size: 2rem;
+    font-size: 48px !important;
     text-align: left;
     padding: 0 1rem;
     margin-top: 0;
@@ -132,7 +145,7 @@ h1 {
 @media screen and (max-width: $sm) {
     
        
-  line-height: 50px !important;
+  line-height: 60px !important;
   padding: 0 1rem;
   font-size: 40px !important;
   text-align: left;
@@ -141,6 +154,14 @@ h1 {
   width: 100%;
  
 
+}
+
+@media screen and (min-width: $lg) {
+        
+  width: 60%;
+  font-size: 72px !important;
+  
+  line-height: 82px !important;
 }
 }
 

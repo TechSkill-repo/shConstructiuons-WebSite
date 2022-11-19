@@ -1,15 +1,41 @@
 @import '../../config';
 
 .offices{
-    background: url('../../../assets/contact-2.jpg') no-repeat;
+    background: url('../../../assets/contact-2.jpg') no-repeat center center/cover;
     padding: 4rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
+    @media screen and  (max-width: $md) {
+        
+       padding: 4rem 2rem;
+       h1{
+        padding: 0;
+       }
+        
+
+     
+     }
+     @media screen and  (min-width: $lg) {
+        
+        padding: 6rem 2rem;
+       
+         
+ 
+      
+      }
 
     &-cards{
         display: flex;
         justify-content: space-evenly;
+        @media screen and  (max-width: $md) {
+        
+           flex-direction: column;
+           gap: 2rem;
+
+
+        
+        }
 
         &-card{
             height: 418px;
@@ -20,6 +46,11 @@
             padding: 2rem 2rem;
             gap: 3rem;
             font-family: $body-font;
+            @media screen and  (max-width: $md) {
+        width: auto;
+     
+             
+             }
             .card-content{
                 display: flex;
                 gap: 1rem;
