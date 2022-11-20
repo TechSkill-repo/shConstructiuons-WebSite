@@ -53,9 +53,9 @@
         cursor: pointer;
 
         @media screen and (max-width: $md) {
-          width: 100%;
+          width: 90%;
           // padding: 39px 27px;
-          height: 400px;
+          height: 380px;
         }
 
         @media screen and (min-width: $lg) {
@@ -204,7 +204,7 @@
     line-height: 28px;
     width: 40%;
     @media screen and (max-width: $md) {
-      width: 80%;
+      width: 60%;
     }
   }
   button {

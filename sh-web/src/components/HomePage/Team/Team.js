@@ -30,7 +30,7 @@ function Team() {
             </div>
           </div>
 
-          <div className="card hide">
+          <div className="card">
             <div className="img">
               <img
                 src="https://preview.codeless.co/bygge/default/wp-content/uploads/2021/06/staff2.png"

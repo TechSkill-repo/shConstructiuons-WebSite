@@ -82,8 +82,9 @@
     width: calc(96%/4);
     display: flex;
     @media screen and (max-width: $md) {
-     width: auto;
+     width: auto !important;
      margin-bottom: 1rem;
+
          
        }
        @media screen and (min-width: $lg) {
