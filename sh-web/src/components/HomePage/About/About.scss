@@ -45,6 +45,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        border: none;
         padding-top: 20px;
         padding: 27px;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -145,8 +146,8 @@
       padding-left: 0;
     }
     @media screen and (min-width: $lg) {
-     width: 87%;
-     font-size: 60px !important;
+      width: 87%;
+      font-size: 60px !important;
     }
   }
   .about-para {
@@ -160,8 +161,7 @@
     line-height: 28px;
     @media screen and (min-width: $lg) {
       width: 87%;
-      
-     }
+    }
   }
 }
 

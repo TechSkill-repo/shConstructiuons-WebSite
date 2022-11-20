@@ -1,140 +1,136 @@
-@import '../../config';
+@import "../../config";
 
-.clients{
-    background: url('../../../assets/testimonial-bg.png') no-repeat center center/cover;
+.clients {
+  background: url("../../../assets/testimonial-bg.png") no-repeat center
+    center/cover;
+  display: flex;
+  color: white !important;
+  height: 700px;
+  @media screen and (max-width: $md) {
+    flex-direction: column;
+    gap: 3rem;
+    height: auto;
+  }
+
+  &-left {
+    flex: 1;
+    padding-left: 5rem;
+    padding-top: 7rem;
+    gap: 1.5rem;
     display: flex;
-    color: white !important;
-    height: 700px;
+    flex-direction: column;
     @media screen and (max-width: $md) {
-        flex-direction: column;
-        gap: 3rem;
-        height: auto;
-           
-         }
+      padding-left: 1rem;
+      padding-top: 3rem;
 
-    &-left{
-           flex: 1;
-           padding-left: 5rem;
-           padding-top: 7rem;
-           gap: 1.5rem;
-           display: flex;
-           flex-direction: column;
-           @media screen and (max-width: $md) {
-            
-            padding-left:1rem;
-            padding-top: 3rem;
-
-            h1{
-                font-size: 47px;
-                padding: 0;
-            }
-               
-             }
-           img{
-            height: 80px;
-            width: 100px;
-           }
-           .clients-para
-           {
-            font-family: $rubik-font;
-            font-size: 16px;
-            line-height: 28px;
-            width: 90%;
-           }
-           button{
-            width: 170px;
-            background-color: transparent;
-            margin-left: 0;
-            color: white;
-            &:hover{
-                color: #fff;
-                background-color: $secondary-color;
-                border-color: transparent;
-            }
-           }
-
+      h1 {
+        font-size: 47px;
+        padding: 0;
+      }
     }
-    &-right{
-        flex: 1;
+    img {
+      height: 80px;
+      width: 100px;
+    }
+    .clients-para {
+      font-family: $rubik-font;
+      font-size: 16px;
+      line-height: 28px;
+      width: 90%;
+    }
+    button {
+      width: 170px;
+      background-color: transparent;
+      margin-left: 0;
+      color: white;
+      &:hover {
+        color: #fff;
+        background-color: $secondary-color;
+        border-color: transparent;
+      }
+    }
+  }
+  &-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 7rem;
+    @media screen and (max-width: $md) {
+      padding-bottom: 4rem;
+    }
+    .card {
+      padding: 45px;
+      background: #fff
+        url("https://preview.codeless.co/bygge/default/wp-content/plugins/cowidgets-bygge/assets/images/quote-image.png")
+        no-repeat right -60px;
+      position: relative;
+      color: black;
+      height: fit-content;
+      // max-height: fit-content;
+      width: calc(80% - 100px);
+      @media screen and (max-width: $md) {
+        height: 440px;
+        width: 90%;
+      }
+      &::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 0 solid transparent;
+        border-top: 20px solid #fff;
+        position: absolute;
+        z-index: 99;
+        bottom: -20px;
+        right: 0;
+      }
+
+      p {
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+        white-space: normal;
+        font-family: $rubik-font;
+        color: gray;
+      }
+      .user-data {
         display: flex;
-        justify-content: center;
         align-items: center;
-        // padding-top: 7rem;
-        @media screen and (max-width: $md) {
-           padding-bottom: 4rem;
-               
-             }
-        .card{
-            padding: 45px;
-            background: #fff url('https://preview.codeless.co/bygge/default/wp-content/plugins/cowidgets-bygge/assets/images/quote-image.png') no-repeat right -60px;
-            position: relative;
-            color: black;
-            height: fit-content;
-            // max-height: fit-content;
-            width: calc(80% - 100px);
-            @media screen and (max-width: $md) {
-               height: 440px;
-               width: 90%;
-                 }
-         &::before{
-            content: "";
-            width: 0;
-            height: 0;
-            border-left: 30px solid transparent;
-            border-right: 0 solid transparent;
-            border-top: 20px solid #fff;
-            position: absolute;
-            z-index: 99;
-            bottom: -20px;
-            right: 0;
-         }
-
-         p{
-            font-size: 18px;
-    font-style: italic;
-    line-height: 30px;
-    white-space:normal;
-    font-family: $rubik-font;
-    color: gray;
-         }
-         .user-data{
-            display: flex;
-            align-items: center;
-            margin-top: 25px;
-            .author-image{
-                width: 74px;
-                img{
-                    height: auto;
-                    max-width: 100%;
-                    border: none;
-                    border-radius: 0;
-                    -webkit-box-shadow: none;
-                    box-shadow: none;
-                }
-            }
-           .author-data {
-                padding-left: 15px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                h4{
-                    line-height: 28px;
-                    text-transform: none;
-                    font-weight: 700;
-                    font-size: 20px;
-                    font-family: $body-font;
-                }
-                p{
-                    font-size: 12px;
-                    font-style: normal;
-                    color: gray;
-                }
-                .title{
-                    padding-top:1rem;
-                }
-            }
-         }
+        margin-top: 25px;
+        .author-image {
+          width: 74px;
+          img {
+            height: auto;
+            max-width: 100%;
+            border: none;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+          }
         }
-
+        .author-data {
+          padding-left: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h4 {
+            line-height: 28px;
+            text-transform: none;
+            font-weight: 700;
+            font-size: 20px;
+            font-family: $body-font;
+          }
+          p {
+            font-size: 12px;
+            font-style: normal;
+            color: gray;
+          }
+          .title {
+            padding-top: 1rem;
+          }
+        }
+      }
     }
+  }
 }

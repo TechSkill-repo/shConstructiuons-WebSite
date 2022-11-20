@@ -129,7 +129,7 @@ function AllServices() {
 
         <div className="all-services-cards-card">
           <img
-            src="https://images.unsplash.com/photo-1596480330945-12a5380b9c59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            src="https://nebula.wsimg.com/2bf30ed96a0927cb40fc0a9dc94bec49?AccessKeyId=052074AA7A09C25FB78D&disposition=0&alloworigin=1"
             alt=""
           />
           <div>
