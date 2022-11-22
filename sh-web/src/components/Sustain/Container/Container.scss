@@ -1,6 +1,7 @@
 @import "../../config";
 
 .sustain-container {
+  background: url('../../../assets/about-bg.png') no-repeat center center/cover;
   @media screen and  (max-width: $md) {
         
     padding: 5rem 1rem;

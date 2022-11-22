@@ -1,0 +1,41 @@
+@import '../../config';
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+  
+    gap: 2rem;
+    padding: 4rem;
+    @media screen and (max-width: $md){
+       padding: 4rem 1rem;
+       h1{
+        padding: 0;
+       }
+    
+        
+    }
+
+    &-row{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        @media screen and (max-width: $md){
+            flex-direction: column;
+        
+            
+        }
+        .gallery-item{
+            height: auto;
+            width: calc(100%);
+            img{
+                display: block;
+               width: inherit;
+               height: inherit;
+               object-fit: cover;
+                border-radius:8px ;
+            }
+        }
+    }
+}
