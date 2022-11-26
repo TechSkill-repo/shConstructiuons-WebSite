@@ -1,36 +1,25 @@
 @import "../../config";
 
 .sustain-container {
-  background: url('../../../assets/about-bg.png') no-repeat center center/cover;
-  @media screen and  (max-width: $md) {
-        
+  background: url("../../../assets/about-bg.png") no-repeat center center/cover;
+  @media screen and (max-width: $md) {
     padding: 5rem 1rem;
-
-    
-    }
-    @media screen and  (min-width: $lg) {
-        
-      padding: 7rem 0;
-  
-      
-      }
-      @media screen and  (min-width: $xl) {
-        
-        padding: 11rem 0;
-    
-        
-        }
+  }
+  @media screen and (min-width: $lg) {
+    padding: 7rem 0;
+  }
+  @media screen and (min-width: $xl) {
+    padding: 11rem 0;
+  }
   &-heading {
     padding: 3rem 4rem;
-    @media screen and  (max-width: $md) {
-        
+    @media screen and (max-width: $md) {
       padding: 4rem 1rem;
       padding-bottom: 1rem;
-      h1{
+      h1 {
         padding: 0 !important;
       }
-  
-  }
+    }
     h1 {
       font-size: 48px;
     }
@@ -42,23 +31,20 @@
     justify-content: space-evenly;
     object-fit: cover;
     gap: 2rem;
-    @media screen and  (max-width: $md) {
-        
+    @media screen and (max-width: $md) {
       flex-direction: column;
       gap: 1rem;
       align-items: center;
       padding: 0;
-
-
-  
-  }
+    }
     &-card {
       .sus-icon {
         font-size: 40px;
       }
 
-      // background-color: #ffff;
+      background-color: #ffff;
       height: auto;
+      border-radius: 10px;
       width: 333px;
       display: flex;
       justify-content: center;
@@ -69,13 +55,10 @@
         margin-bottom: 1rem;
         width: 90%;
       }
-      @media screen and  (min-width: $lg) {
-        
-       width: calc(96%/3);
-       height: 600px;
-    
-        
-        }
+      @media screen and (min-width: $lg) {
+        width: calc(96% / 3);
+        height: 600px;
+      }
       // justify-content: space-around;
       padding: 1rem 2rem;
       border: 2px solid rgba(241, 241, 241, 0.731);
