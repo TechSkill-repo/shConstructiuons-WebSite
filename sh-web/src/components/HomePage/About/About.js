@@ -27,8 +27,7 @@ function About() {
               </svg>
               <h3>Mechanical Maintenance</h3>
               <p>
-                We have wealth of experience working as main building
-                contractors
+                KPI based ownership of 33 MTPA raw material handling plant .
               </p>
               <button>
                 {" "}
@@ -90,11 +89,8 @@ function About() {
                   </g>
                 </g>
               </svg>
-              <h3>Fabrication</h3>
-              <p>
-                We have wealth of experience working as main building
-                contractors
-              </p>
+              <h3>Fabrication & Erection</h3>
+              <p>35000 mm dia pipe Fabrication & erection spacing above 4 km</p>
               <button>
                 {" "}
                 <i className="fas fa-chevron-right right-own-arrow"></i>
@@ -148,11 +144,8 @@ function About() {
                   <path d="m31.98828 19.21777c-2.10449-.00048-5.13086-.18945-8.09473-.50537a.99985.99985 0 0 1 .2129-1.98828c2.89746.30859 5.84375.49317 7.88183.49365 2.41211-.00048 5.665-.25586 7.90625-.49414a.99976.99976 0 0 1 .21094 1.98828c-1.11133.11866-4.98242.50538-8.11719.50586z"></path>
                 </g>
               </svg>
-              <h3>Erection in the field Steel </h3>
-              <p>
-                We have wealth of experience working as main building
-                contractors
-              </p>
+              <h3>Integrated Electrical Maintenance </h3>
+              <p>Electrical maintenance of all Mechanical equipments</p>
               <button>
                 {" "}
                 <i className="fas fa-chevron-right right-own-arrow"></i>
@@ -164,14 +157,12 @@ function About() {
           <p className="clip">WHAT WE OFFER</p>
           <h1 className="about-heading">
             Providing solutions for Mechanical Maintenance, Fabrication,
-            Installation, Erection in the field Steel & Power
+            Installation, Erection in the field of Steel & Power
           </h1>
           <p className="about-para">
-            We are a long-established, independent building services and home
-            improvements company. We have a wealth of experience working as main
-            building contractors on all kinds of projects, big and small, from
-            home maintenance and improvements to extensions, refurbishments and
-            new builds.
+            We are a long-established, Steel and Power plant construction &
+            maintenance company. We have almost 50 year of experience executing
+            critical tasks projects and contracts
           </p>
           <button className="homepage-btn">
             VIEW MORE{" "}
@@ -190,7 +181,7 @@ function About() {
           </button>
         </div>
       </div>
-      <div className="company-profile p-2">
+      {/* <div className="company-profile p-2">
         <p className="clip clip-about">WHAT WE OFFER</p>
         <h1 className="company-heading">Company Profile</h1>
         <p className="company-para">
@@ -215,7 +206,7 @@ function About() {
             />
           </svg>
         </button>
-      </div>
+      </div> */}
     </>
   );
 }

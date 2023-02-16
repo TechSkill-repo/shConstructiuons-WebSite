@@ -102,27 +102,27 @@ const sustain_cards = [
 const achieve_cards = [
   {
     url: "https://i.pinimg.com/originals/ff/87/ab/ff87ab6e009b095eb70a82156289d6b4.jpg",
-    title: "Mechanical Maintenance",
+    title: "Battery Rebinding Job",
     subText1: "TSL",
     subText2: "Coke Plant",
   },
   {
     url: "https://im-mining.com/site/wp-content/uploads/2019/01/Kalinganagar-Nightview-e1547720689683.jpg",
-    title: "Technical Services ",
+    title: "KPI Based owmership",
     subText1: "TSL",
-    subText2: "Pallet Plant",
+    subText2: "Iron Making plant",
   },
   {
     url: "https://assets.telegraphindia.com/telegraph/2020/Nov/1606053118_untitled-design-17.jpg",
-    title: "Miscellaneous Mechanical ",
+    title: "Our Major Projects",
     subText1: "TSL",
-    subText2: "RMBB",
+    subText2: "Global",
   },
   {
-    url: "https://www.tatasteel.com/investors/annual-report-2011-12/html/templates/images/principle6_2.jpg",
-    title: "Erection of  Water",
+    url: "https://assets.telegraphindia.com/telegraph/2020/Dec/1609350263_31tata1_4c.jpg",
+    title: "Conveyor Belt Work",
     subText1: "TSL",
-    subText2: "Zone A-B",
+    subText2: "Global",
   },
 ];
 
@@ -158,8 +158,7 @@ const companies_logos = [
   "https://cdn.logojoy.com/wp-content/uploads/2018/05/01104846/1952-768x591.png",
   "https://www.logo-design-india.com/wp-content/uploads/2022/02/3.jpg",
   "https://lagatar24.com/wp-content/uploads/2022/07/tata_00000.png",
-  "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/corporate-company-logo-design-template-2402e0689677112e3b2b6e0f399d7dc3_screen.jpg?ts=1561532453"
-  ,
+  "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/corporate-company-logo-design-template-2402e0689677112e3b2b6e0f399d7dc3_screen.jpg?ts=1561532453",
   "https://lagatar24.com/wp-content/uploads/2022/07/tata_00000.png",
 ];
 

@@ -14,7 +14,7 @@ function Services() {
       <div className="services-top">
         <div className="services-top-left">
           <p className="clip">WHAT WE OFFER</p>
-          <h1 className="services-heading">Featured Safety</h1>
+          <h1 className="services-heading">Our Clients</h1>
           <p className="services-para">
             We have a wealth of experience working as main building contractors
             on all kinds of projects, big and small, from home maintenance and
@@ -39,7 +39,7 @@ function Services() {
         <div className="services-top-right">
           <div className="card services-top-card">
             <p className="clip index">01.</p>
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               id="Capa_1"
               height="512"
@@ -50,8 +50,12 @@ function Services() {
                 <path d="m280.107 301.14c.006-.002.011-.004.017-.006 1.229-.353 2.383-1.06 3.225-1.902 6.258-6.258 136.762-136.763 143.073-143.074 5.595-5.595 7.388-13.565 5.406-20.695h25.574c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-36.702l-10.545-10.544c-8.264-8.264-21.709-8.264-29.973 0l-10.544 10.544h-139.452c-4.142 0-7.5 3.358-7.5 7.5 0 .164.007 173.765.007 173.765.004 3.144 1.221 6.194 3.474 8.446 3.07 3.071 7.615 4.211 11.846 3zm-2.061-17.818-25.026-25.026 119.726-119.726 25.026 25.026zm76.592-147.858-116.952 116.953v-116.953zm-115.569 161.808 7.051-24.662 17.61 17.61c-9.202 2.633-15.571 4.453-24.661 7.052zm176.746-151.72-7.438 7.438-25.026-25.026 7.438-7.438c2.418-2.42 6.339-2.421 8.758 0 16.091 16.091 9.532 9.531 16.268 16.267 2.422 2.421 2.421 6.338 0 8.759z"></path>
                 <path d="m504.5 336.526c4.143 0 7.5-3.358 7.5-7.5v-233.904c0-14.477-11.778-26.254-26.255-26.254h-16.112v-21.84c0-14.477-11.777-26.254-26.254-26.254h-417.125c-14.668-.001-26.255 11.959-26.254 26.254v54.613c0 4.142 3.358 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-54.614c-.001-6.365 5.162-11.254 11.254-11.254h417.125c6.205 0 11.254 5.049 11.254 11.254v21.84c-47.515 0-337.164 0-386.011 0-14.477 0-26.254 11.778-26.254 26.254v289.639h-16.114c-6.206 0-11.254-5.049-11.254-11.254v-236.865c0-4.142-3.358-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v236.865c0 14.477 11.778 26.254 26.254 26.254h16.113v21.84c0 14.477 11.778 26.254 26.254 26.254h52.521v28.872c0 7.995 6.505 14.5 14.5 14.5h53.026c7.995 0 14.5-6.505 14.5-14.5v-28.872h282.576c14.477 0 26.255-11.778 26.255-26.254v-57.574c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v57.574c0 6.206-5.049 11.254-11.255 11.254h-282.575v-255.643c0-7.995-6.505-14.5-14.5-14.5h-53.026c-7.995 0-14.5 6.505-14.5 14.5v255.644h-52.521c-6.206 0-11.254-5.049-11.254-11.254 0-6.766 0-319.697 0-326.478 0-6.206 5.049-11.254 11.254-11.254h417.124c6.206 0 11.255 5.049 11.255 11.254v233.904c-.001 4.141 3.356 7.499 7.499 7.499zm-368.357-158.815h52.026v28.372h-11.169c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h11.169v41.693h-11.169c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h11.169v41.693h-11.169c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h11.169v41.693h-11.169c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h11.169v41.693h-11.169c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h11.169v28.372h-52.026v-35.872c0-9.486 0-251.398 0-262.644z"></path>
               </g>
-            </svg>
-            <h4>Preconstruction</h4>
+            </svg> */}
+            <img
+              src="https://companieslogo.com/img/orig/TATASTLLP.NS-3c0abd6b.png?t=1604670432"
+              style={{ width: "35%" }}
+            />
+            <h4>TATA STEEL LIMITED</h4>
             <a className="clip">
               VIEW MORE{" "}
               <svg
@@ -70,7 +74,7 @@ function Services() {
           </div>
           <div className="card services-top-card">
             <p className="clip index">02.</p>
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               id="Capa_1"
               height="512"
@@ -97,8 +101,12 @@ function Services() {
                   </g>
                 </g>
               </g>
-            </svg>
-            <h4>Construction</h4>
+            </svg> */}
+            <img
+              src="data:image/jpeg;base64,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"
+              style={{ width: "30%", height: "20%" }}
+            />
+            <h4>USHA MARTIN</h4>
             <a className="clip">
               VIEW MORE{" "}
               <svg
@@ -121,7 +129,7 @@ function Services() {
       <div className="services-bottom">
         <div className="card">
           <p className="clip index">03.</p>
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             height="512"
@@ -174,8 +182,12 @@ function Services() {
                 </g>
               </g>
             </g>
-          </svg>
-          <h4>Restoration</h4>
+          </svg> */}
+          <img
+            src="https://d1rbiogke1jwo5.cloudfront.net/wp-content/uploads/2021/12/Vedanta-Logo-PNG.png"
+            style={{ width: "100%" }}
+          />
+          <h4>VEDANTA</h4>
           <a className="clip">
             VIEW MORE{" "}
             <svg
@@ -194,7 +206,7 @@ function Services() {
         </div>
         <div className="card">
           <p className="clip index">04.</p>
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             height="512"
@@ -206,8 +218,12 @@ function Services() {
               <path d="m455.689 192.087h-5.249v-35.865c0-15.154-12.329-27.484-27.484-27.484h-327.868c-15.155 0-27.484 12.33-27.484 27.484v26.613h-21.287c-1.378 0-2.499-1.12-2.499-2.499v-105.658c0-4.14-3.356-7.496-7.496-7.496s-7.496 3.355-7.496 7.496v105.658c0 9.644 7.846 17.49 17.49 17.49h21.286v45.119c0 15.154 12.329 27.484 27.484 27.484h327.867c15.155 0 27.484-12.33 27.484-27.484v-35.866h5.249c6.889 0 12.493 5.604 12.493 12.493v41.149c0 8.656-6.464 16.101-15.035 17.316l-173.7 24.631c-15.126 2.145-26.709 14.737-27.825 29.779h-21.678c-6.889 0-12.493 5.604-12.493 12.493v16.162c0 9.252 1.9 18.232 5.646 26.691 2.894 6.536 4.362 13.474 4.362 20.621v91.094c0 6.889 5.604 12.493 12.493 12.493h38.138c6.889 0 12.493-5.604 12.493-12.493v-16.814c0-4.14-3.356-7.496-7.496-7.496s-7.496 3.355-7.496 7.496v14.315h-33.141v-88.596c0-9.252-1.9-18.232-5.647-26.692-2.894-6.535-4.362-13.473-4.362-20.62v-13.663h53.162v13.663c0 7.147-1.467 14.085-4.362 20.62-3.747 8.46-5.647 17.44-5.647 26.692v37.708c0 4.14 3.356 7.496 7.496 7.496s7.496-3.355 7.496-7.496v-37.708c0-7.147 1.468-14.085 4.362-20.621 3.746-8.459 5.646-17.439 5.646-26.691v-16.161c0-6.889-5.604-12.493-12.493-12.493h-21.398c1.059-7.605 7.08-13.834 14.852-14.936l173.7-24.631c15.918-2.257 27.921-16.083 27.921-32.159v-41.149c0-15.155-12.33-27.485-27.484-27.485zm-293.969 2.298c-1.387-.726-2.896-1.085-4.398-1.085-1.89 0-3.77.568-5.388 1.689-3.261 2.261-7.091 3.457-11.074 3.457-10.746 0-19.489-8.743-19.489-19.489v-35.229h270.925v35.207c0 10.746-8.743 19.489-19.489 19.489-9.695 0-17.992-7.231-19.3-16.82-.398-2.919-2.175-5.524-4.751-6.97-2.574-1.443-5.72-1.601-8.416-.42-2.465 1.079-5.088 1.627-7.796 1.627-6.235 0-11.946-2.882-15.667-7.906-1.772-2.393-4.614-3.822-7.602-3.822s-5.83 1.429-7.601 3.821c-3.721 5.024-9.433 7.907-15.668 7.907h-72.717c-4.14 0-7.496 3.355-7.496 7.496v22.91c0 10.746-8.743 19.489-19.489 19.489s-19.489-8.743-19.489-19.489v-3.446c0-3.545-1.952-6.77-5.095-8.416zm273.728 48.56c0 6.889-5.604 12.493-12.493 12.493h-327.867c-6.889 0-12.493-5.604-12.493-12.493v-86.723c0-6.889 5.604-12.493 12.493-12.493h11.292v35.229c0 19.013 15.468 34.48 34.48 34.48 3.913 0 7.744-.653 11.367-1.919 2.545 16.52 16.858 29.209 34.078 29.209 19.013 0 34.48-15.468 34.48-34.48v-15.414h65.221c8.643 0 16.964-3.302 23.269-9.053 6.304 5.752 14.625 9.053 23.269 9.053 2.584 0 5.127-.283 7.607-.843 4.658 13.718 17.721 23.426 32.657 23.426 19.013 0 34.48-15.468 34.48-34.48v-35.207h15.668c6.889 0 12.493 5.604 12.493 12.493v86.722z"></path>
               <path d="m135.425 282.847c-4.372 0-8.49 2.134-11.015 5.706-17.984 25.432-17.984 34.355-17.984 37.287 0 15.99 13.009 28.999 28.999 28.999s28.999-13.009 28.999-28.999c0-2.932 0-11.855-17.983-37.286-2.526-3.573-6.644-5.707-11.016-5.707zm0 57.001c-7.724 0-14.008-6.284-14.008-14.008 0-3.15 3.698-12.036 14.008-26.884 10.309 14.847 14.008 23.735 14.008 26.884 0 7.724-6.284 14.008-14.008 14.008z"></path>
             </g>
-          </svg>
-          <h4>Reconstruction</h4>
+          </svg> */}
+          <img
+            src="https://getvectorlogo.com/wp-content/uploads/2019/03/jsw-group-vector-logo.png"
+            style={{ width: "40%" }}
+          />
+          <h4>JSW</h4>
           <a className="clip">
             VIEW MORE{" "}
             <svg
@@ -226,7 +242,7 @@ function Services() {
         </div>
         <div className="card">
           <p className="clip index">05.</p>
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             id="Capa_1"
             height="512"
@@ -259,8 +275,12 @@ function Services() {
                 </g>
               </g>
             </g>
-          </svg>
-          <h4>Consulting</h4>
+          </svg> */}
+          <img
+            src="https://www.bmwventures.com/datafiles/brand/95_img.jpg"
+            style={{ width: "50%" }}
+          />
+          <h4>ISWP</h4>
           <a className="clip">
             VIEW MORE{" "}
             <svg
@@ -279,8 +299,12 @@ function Services() {
         </div>
         <div className="card">
           <p className="clip index">06.</p>
-          <img src={card6} alt="" />
-          <h4>Special Projects</h4>
+          <img
+            src="https://i.etsystatic.com/21350830/r/il/2e8031/4117394112/il_fullxfull.4117394112_8ahi.jpg"
+            style={{ width: "30%" }}
+            alt=""
+          />
+          <h4>TRF</h4>
           <a className="clip">
             VIEW MORE{" "}
             <svg
